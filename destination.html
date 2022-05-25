@@ -6,52 +6,274 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destination</title>
     <style>
+       *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        html {
+    font-family: CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+     
+        /* navbar */
+
+        #media_nav_head{
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            /* background-color: yellow; */
+            align-items: center;
+            padding:1vh 3vh;
+            font-size: 30px;
+        }
+        #media_nav_head > div > img{
+            width: 80%;
+            height: 50px;
+        }
+        #o{
+         display: flex;
+         
+        }
+        ol>li{
+            color: black;
+            
+        }
+        .liFlex{
+            display: flex;
+            justify-content: space-between;
+            padding: 2.5vh 2vh;
+            font-weight: 900;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        .submenue{
+            list-style: none;
+            margin-top: 0vh;
+            color: white;
+            background-color: black;
+            /* padding-left: 5vw; */
+            /* height: 500px; */
+            width: 10%;
+            font-size: 10px;
+            font-weight: 500;
+            display: none;
+            border: 1 px solid black;
+        }
+        .submenue>ul{
+            list-style: none;
+        }
+        .submenue>ul>li{
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+        }
+        .submenue>ul>li:hover {
+            color: red;
+        }
+         #media_nav_body >ol >li:hover {
+            color: red;
+            cursor: pointer;
+        } 
+  
+     /* body */
         #sai{
-        /* margin-top: 5%;
-         margin: 10%; 
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); */
-        /* display: grid; */
             display:flex;
-            /* grid-template-columns: repeat(4, [col-start] 1fr [col-end]);
-            gap: 20px; */
             flex-wrap: wrap;
             margin-left: 3%;
+}
 
-}
-#sai>div{
-    width: 23%;
-    margin:0.5%;
-}
 #sai>div>img{
-    width: 100%;
+    width: 95%;
     height: 280px;
     border-radius: 15px 15px 15px 15px;
 }
-/* #sai>div>h1{
-    position: absolute;
-    margin-top: 0px;
-} */
 #sai>div{
-  position: relative;
+    position:relative;
+    width: 23%;
+    margin:0.5%;
   text-align: center;
   color: white;
 }
-
 h1 {
   position: absolute;
   bottom: 8px;
   left: 16px;
+  font-size: 20px;
 }
+
 
     </style>
 </head>
 <body>
-    
+    <!-- navbar -->
+    <nav style="display: flex;">
+        <div id="media_nav_head" style="position:fixed;" >
+            <div>  <img src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png" alt="Zostel Logo">  </div>
+        </div>
+        <div id="media_nav_body">
+            <ol id="o" style="padding-left:225px;font-family: Utah WGL Bold;">
+                <li class="liFlex" ><span>Destination</span></li>
+                <li class="liFlex" id="submenue1" onclick="show1()"><span>Zostel</span><span id="toggle1"> ^ </span></li>
+                    <div class="submenue" id="innersubmenue1" style="height: 435px;">
+                        <ul> 
+                            <li>Zostel Aurangabad</li>
+                            <li>Zostel Bangalore</li>
+                            <li>Zostel Barot (Rajghnda)</li>
+                            <li>Zostel Chitkul</li>
+                            <li>Zostel Coorg</li>
+                            <li>Zostel Dalhousie</li>
+                            <li>Zostel Delhi</li>
+                            <li>Zostel Dovie</li>
+                            <li>Zostel Gangtok</li>
+                            <li>Zostel Gokarna</li>
+                            <li>Zostel Jaipur</li>
+                            <li>Zostel Jaisalmer</li>
+                        </ul>
+                </div>
+                
+                <li class="liFlex" id="submenue2" onclick="show2()" ><span>Zostel Homes </span><span id="toggle2"> ^ </span></li>
+                <div class="submenue" id="innersubmenue2" style="height: 500px;">
+                    <ul>
+                        <li>Zostel Homes Burwa</li>
+                        <li>Zostel Homes Cheog</li>
+                        <li>Zostel Homes Coorg</li>
+                        <li>Zostel Homes Kibber</li>
+                        <li>Zostel Homes Kotgadh</li>
+                        <li>Zostel Homes Kotkhai</li>
+                        <li>Zostel Homes Laida</li>
+                        <li>Zostel Homes Mashobra</li>
+                        <li>Zostel Homes Pushkar</li>
+                        <li>Zostel Homes Rakhcham</li>
+                        <li>Zostel Homes Ramgadh(Nainital)</li>
+                        <li>Zostel Homes Rashil</li>
+                        <li>Zostel Homes Rumshu</li> 
+                    </ul>  
+                </div>
+                <li class="liFlex" id="submenue3" onclick="show3()" ><span>Zostel Plus</span><span id="toggle3"> ^ </span></li>
+                <div class="submenue" id="innersubmenue3" >
+                    <ul>
+                        <li>Zostel Plus Bir</li>
+                        <li>Zostel Plus Lonavla</li>
+                        <li>Zostel Plus Mussoorie</li>
+                        <li>Zostel Plus Panchgani</li>
+                    </ul>  
+                </div>
+                <li class="liFlex" ><span>Longstays</span></li>
+                <li class="liFlex" ><span>Franchise</span></li>
+                <li class="liFlex" id="submenue4" onclick="show4()"><span>Join us</span><span id="toggle4">^</span> </li>
+                <div class="submenue" id="innersubmenue4" >
+                    <ul>
+                        <li>Career</li>
+                        <li>Zostel Internship 2022</li>
+                    </ul>  
+                </div>
+                <li class="liFlex" ><span>Blog</span></li>
+                <li class="liFlex" ><span>\z/ Zostel</span></li>
+            </ol>
+        </div>
+        </nav>
+
+    <h2 style="text-align:center;font-size:30px;padding-top:30px;padding-bottom:30px;">Explore <strong style="color:rgba(241,88,36);">Destinations</strong></h2>
+       
+ <!-- body -->
     <div id="sai">
     </div>
 </body>
+
+
 <script>
+    // navbar
+const show1=()=>{
+    console.log(1)
+    document.getElementById("toggle2").style.transform='rotate(0deg)'
+    document.getElementById("toggle2").style.transition='.1s'
+    document.getElementById("toggle3").style.transform='rotate(0deg)'
+    document.getElementById("toggle3").style.transition='.1s'
+    document.getElementById("toggle4").style.transform='rotate(0deg)'
+    document.getElementById("toggle4").style.transition='.1s'
+    document.getElementById("innersubmenue2").style.display='none' 
+    document.getElementById("innersubmenue3").style.display='none' 
+    document.getElementById("innersubmenue4").style.display='none' 
+    if(document.getElementById("innersubmenue1").style.display === 'none'){
+        document.getElementById("innersubmenue1").style.display='flex' 
+        document.getElementById("toggle1").style.transform='rotate(180deg)'
+        document.getElementById("toggle1").style.transition='.1s'
+    }else  if(document.getElementById("innersubmenue1").style.display != 'none'){
+        document.getElementById("innersubmenue1").style.display='none' 
+        document.getElementById("toggle1").style.transform='rotate(0deg)'
+        document.getElementById("toggle1").style.transition='.1s'
+    }
+}
+
+const show2=()=>{
+    // console.log(1)
+    document.getElementById("toggle1").style.transform='rotate(0deg)'
+    document.getElementById("toggle1").style.transition='.1s'
+    document.getElementById("toggle3").style.transform='rotate(0deg)'
+    document.getElementById("toggle3").style.transition='.1s'
+    document.getElementById("toggle4").style.transform='rotate(0deg)'
+    document.getElementById("toggle4").style.transition='.1s'
+    document.getElementById("innersubmenue1").style.display='none' 
+    document.getElementById("innersubmenue3").style.display='none'
+    document.getElementById("innersubmenue4").style.display='none'  
+    if(document.getElementById("innersubmenue2").style.display === 'none'){
+        document.getElementById("innersubmenue2").style.display='flex' 
+        document.getElementById("toggle2").style.transform='rotate(180deg)'
+        document.getElementById("toggle2").style.transition='.1s'
+    }else  if(document.getElementById("innersubmenue2").style.display != 'none'){
+        document.getElementById("innersubmenue2").style.display='none' 
+        document.getElementById("toggle2").style.transform='rotate(0deg)'
+        document.getElementById("toggle2").style.transition='.1s'
+    }
+}
+
+
+const show3=()=>{
+    // console.log(1)
+    document.getElementById("toggle4").style.transform='rotate(0deg)'
+    document.getElementById("toggle4").style.transition='.1s'
+    document.getElementById("toggle2").style.transform='rotate(0deg)'
+    document.getElementById("toggle2").style.transition='.1s'
+    document.getElementById("toggle1").style.transform='rotate(0deg)'
+    document.getElementById("toggle1").style.transition='.1s'
+    document.getElementById("innersubmenue1").style.display='none'
+    document.getElementById("innersubmenue2").style.display='none'  
+    document.getElementById("innersubmenue4").style.display='none' 
+    if(document.getElementById("innersubmenue3").style.display === 'none'){
+        document.getElementById("innersubmenue3").style.display='flex' 
+        document.getElementById("toggle3").style.transform='rotate(180deg)'
+        document.getElementById("toggle3").style.transition='.1s'
+    }else  if(document.getElementById("innersubmenue3").style.display != 'none'){
+        document.getElementById("innersubmenue3").style.display='none' 
+        document.getElementById("toggle3").style.transform='rotate(0deg)'
+        document.getElementById("toggle3").style.transition='.1s'
+    }
+}
+const show4=()=>{
+    // console.log(1)
+    document.getElementById("toggle1").style.transform='rotate(0deg)'
+    document.getElementById("toggle1").style.transition='.1s'
+    document.getElementById("toggle2").style.transform='rotate(0deg)'
+    document.getElementById("toggle2").style.transition='.1s'
+    document.getElementById("toggle3").style.transform='rotate(0deg)'
+    document.getElementById("toggle3").style.transition='.1s'
+    document.getElementById("innersubmenue1").style.display='none' 
+    document.getElementById("innersubmenue2").style.display='none' 
+    document.getElementById("innersubmenue3").style.display='none' 
+    if(document.getElementById("innersubmenue4").style.display === 'none'){
+        document.getElementById("innersubmenue4").style.display='flex' 
+        document.getElementById("toggle4").style.transform='rotate(180deg)'
+        document.getElementById("toggle4").style.transition='.1s'
+    }else  if(document.getElementById("innersubmenue4").style.display != 'none'){
+        document.getElementById("innersubmenue4").style.display='none' 
+        document.getElementById("toggle4").style.transform='rotate(0deg)'
+        document.getElementById("toggle4").style.transition='.1s'
+    }
+}
+        // s.addEventListener('click',()=>{ show()})
+
+// body
     async function sai(){
 
 try{
@@ -75,6 +297,7 @@ await fetch("http://localhost:3000/sai")
 function display(data){
     data.forEach((e,i) => {
         var div= document.createElement('div')
+        div.className='xx'
         div.innerHTML=`
                  <img src="${e.posterUrl}">
                  <h1>${e.name}</h1>
