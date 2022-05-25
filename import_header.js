@@ -2,13 +2,13 @@ const nav=()=>{
     return `
     <nav>
     <div id="navFirstChild">
-        <img src="https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68" alt="Zostel Logo">
+        <img src='https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68' alt="Zostel Logo">
     </div>
     <div id="navSecondChild">
       <ul>
           <li>Destination</li>
-          <li onclick="show1()">Zostel <p style="display: inline-block;" id="toggle1">^</p>
-          <div class="submenue" id="submenue1" >
+          <li onclick="normalshow1()">Zostel <p style="display: inline-block;" id="normaltoggle1">^</p>
+          <div class="submenue" id="normalsubmenue1" >
               <div>
                   <ul>
                       <li>Zostel Aurangabad</li>
@@ -62,8 +62,8 @@ const nav=()=>{
           </div>
           
           </li>
-          <li onclick="show2()">Zostel Homes <p style="display: inline-block;" id="toggle2">^</p>
-              <div class="submenue" id="submenue2">
+          <li onclick="normalshow2()">Zostel Homes <p style="display: inline-block;" id="normaltoggle2">^</p>
+              <div class="submenue" id="normalsubmenue2">
                   <div>
                       <ul>
                           <li>Zostel Homes Burwa</li>
@@ -92,8 +92,8 @@ const nav=()=>{
                   </div>
               </div>
           </li>
-          <li onclick="show3()">Zostel Plus <p style="display: inline-block;" id="toggle3">^</p>
-              <div class="submenue" id="submenue3">
+          <li onclick="normalshow3()">Zostel Plus <p style="display: inline-block;" id="normaltoggle3">^</p>
+              <div class="submenue" id="normalsubmenue3">
                   <div>
                       <ul>
                           <li>Zostel Plus Bir</li>
@@ -106,8 +106,8 @@ const nav=()=>{
           </li>
           <li>Longstays</li>
           <li>Franchise</li>
-          <li onclick="show4()">Join us <p style="display: inline-block;" id="toggle4">^</p>
-              <div class="submenue" id="submenue4">
+          <li onclick="normalshow4()">Join us <p style="display: inline-block;" id="normaltoggle4">^</p>
+              <div class="submenue" id="normalsubmenue4">
                   <div>
                       <ul>
                           <li>Career</li>

@@ -56,3 +56,8 @@ nav{
 .submenue >div > ul > li:hover {
     color:red ;
 }
+@media screen and (min-width:60px) and (max-width:630px){
+    nav{
+        display: none;
+    }
+}
