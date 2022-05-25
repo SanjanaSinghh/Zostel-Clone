@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="./Main_page_input.css">
     <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
@@ -237,7 +238,7 @@
                 </div>
             </div>
         </div>
-
+   <div id="footernormal"></div>
 </body>
 
 </html>
@@ -247,6 +248,9 @@
 
     import get_responsive_navbar from './Media_header_import.js'
     document.getElementById("responsive_navbar_box").innerHTML=get_responsive_navbar();
+
+    import footernorm from './components/footer.js'
+    document.getElementById("footernormal").innerHTML=footernorm()
     
 
 </script>
