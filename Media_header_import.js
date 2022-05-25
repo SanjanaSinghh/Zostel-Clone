@@ -1,24 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destination</title>
- <link rel="stylesheet" href="destination.css">
-</head>
-<body>
-    <!-- navbar -->
-    <nav style="display: flex;">
-        <div id="media_nav_head" style="position:fixed;" >
+function get_responsive_navbar() {
+    return `
+    <div id="respnonsive_navbar_main_body" >
+        <div id="media_nav_head">
             <div>  <img src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png" alt="Zostel Logo">  </div>
+            <div style="font-size: 3vw;" onclick='hide_responsive_navbar()'>X</div>
         </div>
         <div id="media_nav_body">
-            <ol id="o" style="padding-left:225px;font-family: Utah WGL Bold;">
+            <ol>
                 <li class="liFlex" ><span>Destination</span></li>
-                <li class="liFlex" id="submenue1" onclick="show1()"><span>Zostel</span><span id="toggle1"> ^ </span>
-                
-                    <div class="submenue" id="innersubmenue1" style="height: 435px;">
+                <li class="liFlex" id="submenue1" onclick="show1()"><span>Zostel</span><span id="toggle1"> ^ </span></li>
+                    <div class="mediasubmenue" id="innersubmenue1" >
                         <ul> 
                             <li>Zostel Aurangabad</li>
                             <li>Zostel Bangalore</li>
@@ -32,12 +23,37 @@
                             <li>Zostel Gokarna</li>
                             <li>Zostel Jaipur</li>
                             <li>Zostel Jaisalmer</li>
+                            <li>Zostel jodhpur</li>
+                            <li>Zostel Kathmandu</li>
+                            <li>Zostel Kochi</li>
+                            <li>Zostel Kodaikanal</li>
+                            <li>Zostel Kolad</li>
+                            <li>Zostel Leh</li>
+                            <li>Zostel Manali</li>
+                            <li>Zostel Mcleodganj</li>
+                            <li>Zostel Mukteshwar</li>
+                            <li>Zostel Mumbai</li>
+                            <li>Zostel Munnar</li>
+                            <li>Zostel Mysore</li>
+                            <li>Zostel Ooty</li>
+                            <li>Zostel Pokhara</li>
+                            <li>Zostel Pushkar</li>
+                            <li>Zostel Rushikesh(Tapovan)</li>
+                            <li>Zostel Sangala</li>
+                            <li>Zostel Shangarh</li>
+                            <li>Zostel Sissu</li>
+                            <li>Zostel Spiti</li>
+                            <li>Zostel Shrinagar</li>
+                            <li>Zostel Udaipur</li>
+                            <li>Zostel Vagamon</li>
+                            <li>Zostel Varkala</li>
+                            <li>Zostel Vashisht</li>
+                            <li>Zostel Wayanand</li>
                         </ul>
                 </div>
                 
-                
                 <li class="liFlex" id="submenue2" onclick="show2()" ><span>Zostel Homes </span><span id="toggle2"> ^ </span></li>
-                <div class="submenue" id="innersubmenue2" style="height: 500px;">
+                <div class="mediasubmenue" id="innersubmenue2" >
                     <ul>
                         <li>Zostel Homes Burwa</li>
                         <li>Zostel Homes Cheog</li>
@@ -55,7 +71,7 @@
                     </ul>  
                 </div>
                 <li class="liFlex" id="submenue3" onclick="show3()" ><span>Zostel Plus</span><span id="toggle3"> ^ </span></li>
-                <div class="submenue" id="innersubmenue3" >
+                <div class="mediasubmenue" id="innersubmenue3" >
                     <ul>
                         <li>Zostel Plus Bir</li>
                         <li>Zostel Plus Lonavla</li>
@@ -66,7 +82,7 @@
                 <li class="liFlex" ><span>Longstays</span></li>
                 <li class="liFlex" ><span>Franchise</span></li>
                 <li class="liFlex" id="submenue4" onclick="show4()"><span>Join us</span><span id="toggle4">^</span> </li>
-                <div class="submenue" id="innersubmenue4" >
+                <div class="mediasubmenue" id="innersubmenue4" >
                     <ul>
                         <li>Career</li>
                         <li>Zostel Internship 2022</li>
@@ -76,21 +92,7 @@
                 <li class="liFlex" ><span>\z/ Zostel</span></li>
             </ol>
         </div>
-        </nav>
-<div >
+    </div>`
+}
 
-    <h2 style="text-align:center;font-size:30px;padding-top:30px;padding-bottom:30px;">Explore <strong style="color:rgba(241,88,36);">Destinations</strong></h2>
-</div>
-<!-- body -->
- <div>
-    <div id="sai">
-    </div>
- </div>
-   
-</body>
-
-
-<script src="destination.js">
-    
-</script>
-</html>
+export default get_responsive_navbar;

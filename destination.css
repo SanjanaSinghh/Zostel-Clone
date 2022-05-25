@@ -1,0 +1,121 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html {
+font-family: CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+line-height: 1.5;
+-webkit-text-size-adjust: 100%;
+}
+
+/* navbar */
+
+#media_nav_head{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    align-items: center;
+    padding:1vh 3vh;
+    font-size: 30px;
+}
+#media_nav_head > div > img{
+    width: 80%;
+    height: 50px;
+}
+#o{
+ display: flex;
+ 
+}
+ol>li{
+    color: black;
+    
+}
+.liFlex{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5vh 2vh;
+    font-weight: 900;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.submenue{
+    position: fixed;
+    list-style: none;
+    margin-top: 0vh;
+    color: white;
+    background-color: black;
+    /* padding-left: 5vw; */
+    /* height: 500px; */
+    width: 10%;
+    font-size: 10px;
+    font-weight: 500;
+    display: none;
+    border: 1 px solid black;
+}
+.submenue>ul{
+    list-style: none;
+    position: fixed;
+}
+.submenue>ul>li{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.submenue>ul>li:hover {
+    color: red;
+}
+ #media_nav_body >ol >li:hover {
+    color: red;
+    cursor: pointer;
+} 
+
+/* body */
+#sai{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+#sai>div>img{
+width: 95%;
+height: 280px;
+border-radius: 15px 15px 15px 15px;
+}
+#sai>div{
+/* position:relative; */
+width: 22%;
+margin:1%;
+text-align: center;
+color: white;
+}
+/* h1 {
+position: absolute;
+bottom: 8px;
+left: 16px;
+font-size: 20px;
+} */
+#innersubmenue1{
+    margin-top: 50px;
+    margin-left: 0%;
+}
+#innersubmenue2{
+    margin-top: 50px;
+    margin-left: 17%;}
+#innersubmenue3{
+    color: white;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+#innersubmenue4{
+    color: white;
+    margin-top: 50px;
+    margin-left: 56%;
+}
+#innersubmenue3>ul{
+    background-color: black;
+}
+#innersubmenue4>ul{
+    background-color: black;
+}

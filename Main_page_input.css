@@ -93,3 +93,65 @@ input:placeholder-shown {
 .clear_border{
     border-bottom: none; 
 }
+
+
+@media screen and (min-width:60px) and (max-width:630px) {
+    #boxOnSlider{
+        width: 90vw;
+        left: 3vw;
+    }
+    #type  {
+        font-size: 3vw;
+        padding-left: 1vh .5vh;
+    }
+    #belowType {
+        width: 90vw;
+        font-size: 2vw;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* border: 1px solid red; */
+        padding: 0%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    #DestinationSel{
+        width: 32vw;
+        margin-left: 0%;
+        padding-left: 0%;
+        /* border: 1px solid red; */
+    }
+    #fillPlace{
+        width: 50vw;
+        margin: auto;
+    }
+    #fillPlace:placeholder-shown {
+        font-size: 3vw;
+    }
+    #inpBox{
+        width: 90vw;
+        margin: 0%;
+        padding: 0%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 4vh;
+    
+    }
+    #datebox{
+        width: 60vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        /* margin-top: 4vh; */
+    }
+    #date1,#date2{
+        width: 25vw;
+    }
+    #bookNowButton{
+        width: 50vw;
+        font-size: 3vw;
+        /* margin-top: 8vh; */
+        margin: auto;
+    }
+}
+   
