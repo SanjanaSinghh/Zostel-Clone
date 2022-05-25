@@ -1,5 +1,5 @@
-  // navbar
-  const show1=()=>{
+// navbar
+const show1=()=>{
     console.log(1)
     document.getElementById("toggle2").style.transform='rotate(0deg)'
     document.getElementById("toggle2").style.transition='.1s'
@@ -45,7 +45,7 @@ const show2=()=>{
 
 
 const show3=()=>{
-    // console.log(1)
+    console.log(3)
     document.getElementById("toggle4").style.transform='rotate(0deg)'
     document.getElementById("toggle4").style.transition='.1s'
     document.getElementById("toggle2").style.transform='rotate(0deg)'
@@ -66,7 +66,7 @@ const show3=()=>{
     }
 }
 const show4=()=>{
-    // console.log(1)
+    console.log(4)
     document.getElementById("toggle1").style.transform='rotate(0deg)'
     document.getElementById("toggle1").style.transition='.1s'
     document.getElementById("toggle2").style.transform='rotate(0deg)'
@@ -109,13 +109,16 @@ await fetch("http://localhost:3000/sai")
     }
     sai()
 
-function display(data){
+    function display(data){
     data.forEach((e,i) => {
         var div= document.createElement('div')
         div.className='xx'
         div.innerHTML=`
-                 <img src="${e.posterUrl}">
-                 <h1>${e.name}</h1>
+        <img src="${e.posterUrl} "height="280px"/>
+<div style="margin-top:-80px;font-size:35px;font-family: CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+;">
+${e.name}
+</div>
              </div>
      `
      
