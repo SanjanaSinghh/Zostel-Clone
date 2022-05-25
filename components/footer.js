@@ -1,8 +1,8 @@
 function footer(){
-    return ` <footer class="footer">
+    return `<footer class="footer">
     <div class="footer-section">
       <div class="desc">
-        <a href="https://imgbb.com/"><img src="https://i.ibb.co/FxxC7Sr/zostel.png" alt="zostel" border="0" /></a>
+        <a href="https://imgbb.com/"><img id = "croppedImage" src="https://i.ibb.co/FxxC7Sr/zostel.png" alt="zostel" border="0" /></a>
         <p>
           Explore with Zostel - oldest & the biggest backpacker hostel brand
           of India. Travel India & Nepal on budget while having fun at our
