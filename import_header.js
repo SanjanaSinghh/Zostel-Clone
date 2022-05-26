@@ -2,7 +2,7 @@ const nav=()=>{
     return `
     <nav>
     <div id="navFirstChild">
-        <img src='https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68' alt="Zostel Logo">
+         <img onclick='changelocation()' src='https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68' alt="Zostel Logo">
     </div>
     <div id="navSecondChild">
       <ul>
@@ -11,52 +11,52 @@ const nav=()=>{
           <div class="submenue" id="normalsubmenue1" >
               <div>
                   <ul>
-                      <li>Zostel Aurangabad</li>
-                      <li>Zostel Bangalore</li>
-                      <li>Zostel Barot (Rajghnda)</li>
-                      <li>Zostel Chitkul</li>
-                      <li>Zostel Coorg</li>
-                      <li>Zostel Dalhousie</li>
-                      <li>Zostel Delhi</li>
-                      <li>Zostel Dovie</li>
-                      <li>Zostel Gangtok</li>
-                      <li>Zostel Gokarna</li>
-                      <li>Zostel Jaipur</li>
-                      <li>Zostel Jaisalmer</li>
-                      <li>Zostel jodhpur</li>
+                      <li  onclick=("setdata()") class = "city" >Zostel Aurangabad</li>
+                      <li  class = "city" >Zostel Bangalore</li>
+                      <li  class = "city" >Zostel Barot (Rajghnda)</li>
+                      <li  class = "city" >Zostel Chitkul</li>
+                      <li  class = "city" >Zostel Coorg</li>
+                      <li  class = "city" >Zostel Dalhousie</li>
+                      <li  class = "city" >Zostel Delhi</li>
+                      <li  class = "city" >Zostel Dovie</li>
+                      <li  class = "city" >Zostel Gangtok</li>
+                      <li  class = "city" >Zostel Gokarna</li>
+                      <li  class = "city" >Zostel Jaipur</li>
+                      <li  class = "city" >Zostel Jaisalmer</li>
+                      <li  class = "city" >Zostel jodhpur</li>
                   </ul>
               </div>
               <div>
                   <ul>
-                      <li>Zostel Kathmandu</li>
-                      <li>Zostel Kochi</li>
-                      <li>Zostel Kodaikanal</li>
-                      <li>Zostel Kolad</li>
-                      <li>Zostel Leh</li>
-                      <li>Zostel Manali</li>
-                      <li>Zostel Mcleodganj</li>
-                      <li>Zostel Mukteshwar</li>
-                      <li>Zostel Mumbai</li>
-                      <li>Zostel Munnar</li>
-                      <li>Zostel Mysore</li>
-                      <li>Zostel Ooty</li>
-                      <li>Zostel Pokhara</li>
+                      <li  class = "city" >Zostel Kathmandu</li>
+                      <li  class = "city" >Zostel Kochi</li>
+                      <li  class = "city" >Zostel Kodaikanal</li>
+                      <li  class = "city" >Zostel Kolad</li>
+                      <li  class = "city" >Zostel Leh</li>
+                      <li  class = "city" >Zostel Manali</li>
+                      <li  class = "city" >Zostel Mcleodganj</li>
+                      <li  class = "city" >Zostel Mukteshwar</li>
+                      <li  class = "city" >Zostel Mumbai</li>
+                      <li  class = "city" >Zostel Munnar</li>
+                      <li  class = "city" >Zostel Mysore</li>
+                      <li  class = "city" >Zostel Ooty</li>
+                      <li  class = "city" >Zostel Pokhara</li>
                   </ul>
               </div>
               <div>
                   <ul>
-                      <li>Zostel Pushkar</li>
-                      <li>Zostel Rushikesh(Tapovan)</li>
-                      <li>Zostel Sangala</li>
-                      <li>Zostel Shangarh</li>
-                      <li>Zostel Sissu</li>
-                      <li>Zostel Spiti</li>
-                      <li>Zostel Shrinagar</li>
-                      <li>Zostel Udaipur</li>
-                      <li>Zostel Vagamon</li>
-                      <li>Zostel Varkala</li>
-                      <li>Zostel Vashisht</li>
-                      <li>Zostel Wayanand</li>
+                      <li  class = "city" >Zostel Pushkar</li>
+                      <li  class = "city" >Zostel Rushikesh(Tapovan)</li>
+                      <li  class = "city" >Zostel Sangala</li>
+                      <li  class = "city" >Zostel Shangarh</li>
+                      <li  class = "city" >Zostel Sissu</li>
+                      <li  class = "city" >Zostel Spiti</li>
+                      <li  class = "city" >Zostel Shrinagar</li>
+                      <li  class = "city" >Zostel Udaipur</li>
+                      <li  class = "city" >Zostel Vagamon</li>
+                      <li  class = "city" >Zostel Varkala</li>
+                      <li  class = "city" >Zostel Vashisht</li>
+                      <li  class = "city" >Zostel Wayanand</li>
                   </ul>
               </div>
           </div>
@@ -66,28 +66,28 @@ const nav=()=>{
               <div class="submenue" id="normalsubmenue2">
                   <div>
                       <ul>
-                          <li>Zostel Homes Burwa</li>
-                          <li>Zostel Homes Cheog</li>
-                          <li>Zostel Homes Coorg</li>
-                          <li>Zostel Homes Kibber</li>
-                          <li>Zostel Homes Kotgadh</li>
-                          <li>Zostel Homes Kotkhai</li>
-                          <li>Zostel Homes Laida</li>
-                          <li>Zostel Homes Mashobra</li>
-                          <li>Zostel Homes Pushkar</li>
-                          <li>Zostel Homes Rakhcham</li>
-                          <li>Zostel Homes Ramgadh(Nainital)</li>
-                          <li>Zostel Homes Rashil</li>
-                          <li>Zostel Homes Rumshu</li>
+                          <li  class = "city" >Zostel Homes Burwa</li>
+                          <li  class = "city" >Zostel Homes Cheog</li>
+                          <li  class = "city" >Zostel Homes Coorg</li>
+                          <li  class = "city" >Zostel Homes Kibber</li>
+                          <li  class = "city" >Zostel Homes Kotgadh</li>
+                          <li  class = "city" >Zostel Homes Kotkhai</li>
+                          <li  class = "city" >Zostel Homes Laida</li>
+                          <li  class = "city" >Zostel Homes Mashobra</li>
+                          <li  class = "city" >Zostel Homes Pushkar</li>
+                          <li  class = "city" >Zostel Homes Rakhcham</li>
+                          <li  class = "city" >Zostel Homes Ramgadh(Nainital)</li>
+                          <li  class = "city" >Zostel Homes Rashil</li>
+                          <li  class = "city" >Zostel Homes Rumshu</li>
                       </ul>
                   </div>
                   <div>
                       <ul>
-                          <li>Zostel Homes Tabo</li>
-                          <li>Zostel Homes Theog</li>
-                          <li>Zostel Homes Wayanand(Karpujha)</li>
-                          <li>Zostel Homes Wayanand(Thirunelli)</li>
-                          <li>Zostel Homes Wayanand(Vythri)</li>
+                          <li  class = "city" >Zostel Homes Tabo</li>
+                          <li  class = "city" >Zostel Homes Theog</li>
+                          <li  class = "city" >Zostel Homes Wayanand(Karpujha)</li>
+                          <li  class = "city" >Zostel Homes Wayanand(Thirunelli)</li>
+                          <li  class = "city" >Zostel Homes Wayanand(Vythri)</li>
                       </ul>
                   </div>
               </div>
@@ -96,10 +96,10 @@ const nav=()=>{
               <div class="submenue" id="normalsubmenue3">
                   <div>
                       <ul>
-                          <li>Zostel Plus Bir</li>
-                          <li>Zostel Plus Lonavla</li>
-                          <li>Zostel Plus Mussoorie</li>
-                          <li>Zostel Plus Panchgani</li>
+                          <li  class = "city" >Zostel Plus Bir</li>
+                          <li  class = "city" >Zostel Plus Lonavla</li>
+                          <li  class = "city" >Zostel Plus Mussoorie</li>
+                          <li  class = "city" >Zostel Plus Panchgani</li>
                       </ul>
                   </div>
               </div>
@@ -125,3 +125,7 @@ const nav=()=>{
 
 
 export default nav
+
+
+// style='text-decoration:none;
+// <a href='./Main.html' >
