@@ -230,3 +230,6 @@ const show4=()=>{
 const changelocation=()=>{
     location.href=`./Main.html`
 }
+const changeLongstayslocation=()=>{
+    location.href='./Longstays.html'
+}

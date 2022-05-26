@@ -2,7 +2,7 @@ function get_responsive_navbar() {
     return `
     <div id="respnonsive_navbar_main_body" >
         <div id="media_nav_head">
-            <div>  <img src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png" alt="Zostel Logo">  </div>
+            <div>  <img onclick='changelocation()' src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png" alt="Zostel Logo">  </div>
             <div style="font-size: 3vw;" onclick='hide_responsive_navbar()'>X</div>
         </div>
         <div id="media_nav_body">
@@ -79,7 +79,7 @@ function get_responsive_navbar() {
                         <li>Zostel Plus Panchgani</li>
                     </ul>  
                 </div>
-                <li class="liFlex" ><span>Longstays</span></li>
+                <li class="liFlex" onclick='changeLongstayslocation()' ><span>Longstays</span></li>
                 <li class="liFlex" ><span>Franchise</span></li>
                 <li class="liFlex" id="submenue4" onclick="show4()"><span>Join us</span><span id="toggle4">^</span> </li>
                 <div class="mediasubmenue" id="innersubmenue4" >

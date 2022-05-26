@@ -104,7 +104,7 @@ const nav=()=>{
                   </div>
               </div>
           </li>
-          <li>Longstays</li>
+          <li onclick='changeLongstayslocation()'>Longstays</li>
           <li>Franchise</li>
           <li onclick="normalshow4()">Join us <p style="display: inline-block;" id="normaltoggle4">^</p>
               <div class="submenue" id="normalsubmenue4">

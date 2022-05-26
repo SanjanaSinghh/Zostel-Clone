@@ -73,6 +73,7 @@ ol>li{
     grid-template-columns: 1fr; */
 
     flex-direction: column;
+    font-size: 4.5vw;
     
 }
 
