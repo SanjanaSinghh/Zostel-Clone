@@ -137,10 +137,6 @@ padding:3px;
 width:60px;
 height:30px;
 }
-.payment_details{
-
-}
-
 .card_details{
 display:flex;
 
@@ -148,9 +144,6 @@ display:flex;
 .card_details img{
     width:50px;
     height:30px;
-}
-#card_number label{
-
 }
 .label_in{
     display: block;
