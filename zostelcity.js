@@ -37,6 +37,8 @@ for (let item of cities) {
 }
 const displayCityData = (city) => {
 
+  localStorage.setItem("roomDetails",JSON.stringify(city.roomDetails))
+
   document.getElementById("cityImage").innerHTML = "";
   document.getElementById("stays").innerHTML = "";
   let image = document.createElement("img");
@@ -69,28 +71,38 @@ const displayCityData = (city) => {
     
 
     let type = document.createElement("p");
-    type.innerText = "Zostel";
+    type.innerText = "ZOSTEL";
+    type.setAttribute("class", "type")
 
     let name = document.createElement("p");
     name.innerText = stay.staysName;
+    name.setAttribute("class", "stayName")
 
     let desc = document.createElement("p");
     desc.innerText = stay.staysDescription;
+    desc.setAttribute("class", "stayDesc")
 
     let rateBtn = document.createElement("div");
+    rateBtn.setAttribute("class", "rateBtn")
 
     let price = document.createElement("p");
-    price.innerText = "starting from" + "₹" + stay.rate;
+    price.innerText = "starting from" + " " + "₹" + stay.rate;
+    price.setAttribute("class", "stayPrice")
 
     let viewButton = document.createElement("button");
-    viewButton.innerText = "View" + " " + "";
+    viewButton.innerText = "View" + " " + "→";
 
 
-    viewButton.addEventListener("click", () => {});
+
+    viewButton.addEventListener("click", () => {
+     
+      location.href = "rooms.html"
+      
+    });
 
     rateBtn.append(price,viewButton)
 
-    descDiv.append(type, name, desc, price, viewButton);
+    descDiv.append(type, name, desc,rateBtn);
 
     stayDiv.append(imageDiv, descDiv);
     document.getElementById("stays").append(stayDiv);
