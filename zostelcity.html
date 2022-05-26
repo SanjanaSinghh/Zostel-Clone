@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="header.css">
  </head>
 <body>
-    <!-- <div id = "navbar"></div> -->
+     <div id = "navbar"></div>
 
-    <nav>
+    <!-- <nav>
         <div id="navFirstChild">
             <img src="https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68" alt="Zostel Logo">
         </div>
@@ -132,7 +132,7 @@
               <li style="border:1px solid red; padding:1.5vh 2vh;border-radius:10px;font-size: 1.2vw;background-color: white;"><p style="color:rgb(230,90,39);display:inline-block;font-size: 1vw;"> \z/</p><pre style="display:inline-block ;">  Zo World</pre></li>
           </ul>
         </div>
-     </nav>
+     </nav> -->
     <div id = "cityImage"></div>
     <div id = "cityDesc">
         <h3>Welcome to</h3>
@@ -155,6 +155,12 @@
 <script src = "zostelcity.js" type = "module">
 </script>
 <script src = "./header.js"></script>
+
+<script type = "module">
+    import nav from "./import_header.js" 
+    document.getElementById("navbar").innerHTML = nav()
+</script>
+
+
 </html>
 
-<!-- C:\Users\MD SHAHBAZ ALAM\Documents\GitHub\Zostel-Clone\header.js -->
