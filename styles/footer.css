@@ -1,40 +1,26 @@
 body {
   margin: 0;
 }
-
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
 .footer {
-  background: #2d3748;
+  background: #2D3748;
   height: auto;
-  margin-top: 125vh;
+  /* margin-top: 125vh; */
   padding: 30px;
   /* position:relative;
   bottom:0;
   left:0; */
-
-.footer {
-  background: #2D3748;
-  height:auto;
-  position:relative;
-  bottom:0;
-  left:0;
-
 }
 .footer-section .desc {
   color: rgba(247, 250, 252, var(--text-opacity));
   letter-spacing: 0.025em;
   width: 25%;
   --text-opacity: 1;
-
   margin-top: -40vh;
-
-  margin-top: -90px;
-
 }
 .footer-section {
   width: 100%;
@@ -46,11 +32,7 @@ body {
 .footer-section .links h3 {
   color: #fff;
   margin-left: 60px;
-
   margin-bottom: 20px;
-
-  margin-bottom:20px;
-
 }
 .footer-section .links .In-link li {
   list-style: none;
@@ -61,12 +43,9 @@ body {
   color: #fff;
   text-decoration: none;
 }
-
 .footer-section .links .In-link li:hover {
   text-decoration: underline;
 }
-
-
 .In-link {
   display: flex;
   justify-content: center;
@@ -99,23 +78,17 @@ body {
 small {
   margin-left: 35px;
 }
-
-
 #croppedImage {
   margin-top: 30vh;
   margin-bottom: 3vh;
 }
 @media all and (min-width: 86px) and (max-width: 630px) {
   .footer {
-    background: #2d3748;
-
-@media all and (min-width: 86px) and (max-width: 450px) {
-  .footer {
     background: #2D3748;
-
     height: auto;
     width: auto;
     padding: 24px;
+    margin-top: 105vh;
   }
   .footer-section {
     width: 100%;
@@ -130,24 +103,18 @@ small {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
     margin-left: -55vw;
     margin-top: 20px;
   }
   .In-link > ul {
     margin-bottom: 20px;
   }
-
-    margin-left: -250px;
-  }
-
   .footer-section .desc,
   .social-links,
   .links {
     width: 100%;
   }
   .footer-section .desc {
-
     font-size: 18px;
   }
   .footer-section .links ul li {
@@ -168,24 +135,8 @@ small {
   }
   .one {
     margin-left: -20px;
-
-    font-size: 22px;
   }
-  .footer-section .links ul li {
-    font-size: 22px;
-    text-align: left;
-  }
-  .two {
-    margin-left: 50px;
-  }
-  .footer-section .links h3 {
-    color: #fff;
-    margin-left: 0;
-
-  }
-  #social-logo,
   small {
-
     margin-left: 70px;
   }
   .links {
@@ -196,15 +147,3 @@ small {
     margin-bottom: 3vh;
   }
 }
-
-    margin-left: 0;
-    text-align: center;
-  }
-  .one {
-    margin-left: -20px;
-  }
-  small {
-    margin-left: 70px;
-  }
-}
-

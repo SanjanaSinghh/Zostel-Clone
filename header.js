@@ -1,3 +1,9 @@
+const setdata =(e)=>{
+    console.log(e.target.value)
+}
+
+
+
 const normalshow1=()=>{
     console.log(1)
     document.getElementById("normaltoggle2").style.transform='rotate(0deg)'
@@ -173,4 +179,19 @@ const show4=()=>{
 // function hide_responsive_navbar (){
 //     console.log(1)
 //     document.getElementById("respnonsive_navbar_main_body").style.display === 'none'
+// }
+
+// let cities = document.getElementsByClassName(".city");
+// console.log(cities)
+// cities.oncllick=(ele)=>{
+//     console.log(ele.target.innerText)
+// }
+
+// console.log(cities)
+// for (let item of cities) {
+//   item.addEventListener("click", (ele) => {
+//     let text = ele.target.innerText;
+//     // getCityData(text);
+//     console.log(text);
+//   });
 // }
