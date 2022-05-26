@@ -18,5 +18,8 @@
   "homepage": "https://github.com/SanjanaSinghh/Zostel-Clone#readme",
   "dependencies": {
     "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1"
   }
 }
