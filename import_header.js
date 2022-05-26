@@ -6,7 +6,7 @@ const nav=()=>{
     </div>
     <div id="navSecondChild">
       <ul>
-          <li>Destination</li>
+          <li onclick='changedestlocation()' >Destination</li>
           <li onclick="normalshow1()">Zostel <p style="display: inline-block;" id="normaltoggle1">^</p>
           <div class="submenue" id="normalsubmenue1" >
               <div>

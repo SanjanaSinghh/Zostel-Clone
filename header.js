@@ -233,3 +233,6 @@ const changelocation=()=>{
 const changeLongstayslocation=()=>{
     location.href='./Longstays.html'
 }
+const changedestlocation = ()=>{
+    location.href='./destination.html'
+}

@@ -50,32 +50,16 @@ text-align: center;
 color: white;
 
 }
-/* h1 {
-position: absolute;
-bottom: 8px;
-left: 16px;
-font-size: 20px;
-} */
-/* #innersubmenue1{
-    margin-top: 50px;
-    margin-left: 0%;
+@media screen and (min-width:60px) and (max-width:630px) {
+    #sai{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        gap: 1vw;
+        margin: auto;
+       margin-bottom: -100vh;
+    }
+    #sai>div{
+        width: 46vw;
+        margin-bottom: 3vh;
+    }
 }
-#innersubmenue2{
-    margin-top: 50px;
-    margin-left: 17%;}
-#innersubmenue3{
-    color: white;
-    margin-top: 50px;
-    margin-left: 30%;
-}
-#innersubmenue4{
-    color: white;
-    margin-top: 50px;
-    margin-left: 56%;
-}
-#innersubmenue3>ul{
-    background-color: black;
-}
-#innersubmenue4>ul{
-    background-color: black;
-} */

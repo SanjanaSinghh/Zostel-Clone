@@ -7,7 +7,7 @@ function get_responsive_navbar() {
         </div>
         <div id="media_nav_body">
             <ol>
-                <li class="liFlex" ><span>Destination</span></li>
+                <li class="liFlex" onclick='changedestlocation()' ><span>Destination</span></li>
                 <li class="liFlex" id="submenue1" onclick="show1()"><span>Zostel</span><span id="toggle1"> ^ </span></li>
                     <div class="mediasubmenue" id="innersubmenue1" >
                         <ul> 

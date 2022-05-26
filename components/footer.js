@@ -10,7 +10,7 @@ function footer(){
       </p>
     </div>
     <div class="links">
-      <div><h3>USEFUL LINKS</h3></div>
+      <div id='linksh3'><h3>USEFUL LINKS</h3></div>
       <div class="In-link">
         <ul>
           <li><a href="#">Zostel Homes</a></li>
@@ -37,7 +37,7 @@ function footer(){
       </div>
     </div>
     <div class="social-links">
-    <h3 class="one">SOCIAL</h3>
+    <h3 class="one" id='social_links_h3' >SOCIAL</h3>
     <div id="social-logo">
       <a href=""
         ><img
