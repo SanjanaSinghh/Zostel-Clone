@@ -32,6 +32,7 @@ nav{
 }
 #navSecondChild >ul>li:hover {
     color: rgb(230,90,39);
+    cursor: pointer;
 }
 .submenue{
     z-index: 70;
