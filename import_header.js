@@ -2,7 +2,7 @@ const nav=()=>{
     return `
     <nav>
     <div id="navFirstChild">
-        <img src='https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68' alt="Zostel Logo">
+         <img onclick='changelocation()' src='https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68' alt="Zostel Logo">
     </div>
     <div id="navSecondChild">
       <ul>
@@ -125,3 +125,7 @@ const nav=()=>{
 
 
 export default nav
+
+
+// style='text-decoration:none;
+// <a href='./Main.html' >
