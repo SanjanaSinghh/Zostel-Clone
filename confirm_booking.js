@@ -30,3 +30,6 @@ function hideElementGuest() {
       x.style.display = "none";
     }
   }
+
+
+  
