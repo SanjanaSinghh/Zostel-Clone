@@ -63,7 +63,7 @@
                 }
 
             ],
-            "address": "5-14-34, Adalat Road, Kranti Chowk, Aurangabad (Beside Raymond's Men Wear), Maharashtra-431001</p>",
+            "address": "5-14-34, Adalat Road, Kranti Chowk, Aurangabad (Beside Raymond's Men Wear), Maharashtra-431001",
             "city":"Aurangabad",
             "contact":"02248962270"
         }
@@ -706,7 +706,7 @@
         "Id": "50",
         "type": "Zostel Homes",
         "Image": "https://tse1.mm.bing.net/th?id=OIP.QEmT-3kOGVRjuV6s8bKkHQHaEK&pid=Api&P=0&w=329&h=185",
-        "Name": "Zostel Homes Manali",
+        "Name": "Zostel Homes Burwa",
         "Description": "Chill with us at Zostel Manali amidst panoramic Himalayan views, apple orchard and a gorgeous garden cafe. Located at the unbeatable location of Old Manali, our backpacker hostel is an ideal place to laze around with other backpackers.",
         "stays": [{
                 "staysName": "Zostel Manali",
@@ -783,7 +783,7 @@
         "Id": "53",
         "type": "Zostel Homes",
         "Image": "https://tse2.mm.bing.net/th?id=OIP.TqRc4AQUlvife3CFZ7CL6QHaE7&pid=Api&P=0&w=255&h=170",
-        "Name": "Zostel Homes Spiti",
+        "Name": "Zostel Homes Kibber",
         "Description": "Discover Spiti with Asia's highest backpacker hostel - Zostel Spiti. Top ranked by guests, Zostel Spiti fosters new friendships and helps you explore the majestic Spiti on a budget.",
         "stays": [{
                 "staysName": "Zostel Spiti",
@@ -834,7 +834,7 @@
     },
     {
         "Id": "56",
-        "type": "Zostel Homes",
+        "type": "Zostel Homes Laida",
         "Image": "https://tse4.mm.bing.net/th?id=OIP.R3A5k_fPq5wx2x0oNkt7GgHaE8&pid=Api&P=0&w=242&h=161",
         "Name": "Zostel Homes Jibhi",
         "Description": "a",

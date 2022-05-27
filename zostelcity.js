@@ -9,11 +9,13 @@ const getCityData = async () => {
 
     let filteredData = cityData.filter((city) => {
       return city.Name === JSON.parse(localStorage.getItem("ZostelData"));
+     
     });
-
+    
     console.log(filteredData[0]);
     console.log(cityData);
     displayCityData(filteredData[0]);
+ 
   } catch (error) {
     console.log(error);
   }
@@ -21,7 +23,8 @@ const getCityData = async () => {
 getCityData();
 
 const displayCityData = (city) => {
-  localStorage.setItem("roomDetails", JSON.stringify(city.roomDetails));
+
+  localStorage.setItem("roomDetails",JSON.stringify(city.roomDetails));
 
   document.getElementById("cityImage").innerHTML = "";
   document.getElementById("stays").innerHTML = "";
