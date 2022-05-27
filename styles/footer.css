@@ -86,6 +86,8 @@ small {
 @media all and (min-width: 86px) and (max-width: 630px) {
   .footer {
     background: #2D3748;
+
+    background: #2d3748;
     height: auto;
     width: auto;
     padding: 24px;
