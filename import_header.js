@@ -11,65 +11,52 @@ const nav=()=>{
           <div class="submenue" id="normalsubmenue1" >
               <div>
                   <ul>
-                      <li  onclick=("setdata()") class = "city" >Zostel Aurangabad</li>
-                      <li  class = "city" >Zostel Bangalore</li>
-                      <li  class = "city" >Zostel Barot (Rajghnda)</li>
-                      <li  class = "city" >Zostel Chitkul</li>
-                      <li  class = "city" >Zostel Coorg</li>
-                      <li  class = "city" >Zostel Dalhousie</li>
-                      <li  class = "city" >Zostel Delhi</li>
-                      <li  class = "city" >Zostel Dovie</li>
-                      <li  class = "city" >Zostel Gangtok</li>
-                      <li  class = "city" >Zostel Gokarna</li>
-                      <li  class = "city" >Zostel Jaipur</li>
-                      <li  class = "city" >Zostel Jaisalmer</li>
-                      <li  class = "city" >Zostel jodhpur</li>
-                      <li class = "city" >Zostel Aurangabad</li>
-                      <li>Zostel Bangalore</li>
-                      <li>Zostel Barot (Rajghnda)</li>
-                      <li>Zostel Chitkul</li>
-                      <li>Zostel Coorg</li>
-                      <li>Zostel Dalhousie</li>
-                      <li>Zostel Delhi</li>
-                      <li>Zostel Dovie</li>
-                      <li>Zostel Gangtok</li>
-                      <li>Zostel Gokarna</li>
-                      <li>Zostel Jaipur</li>
-                      <li>Zostel Jaisalmer</li>
-                      <li>Zostel jodhpur</li>
+                      <li  class = "city" ><a href='./zostelcity.html' >Zostel Aurangabad</a></li>
+                      <li  class = "city" ><a href='./zostelcity.html'>Zostel Bangalore</a></li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Barot (Rajghnda) </a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Chitkul</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Coorg</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Dalhousie</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Delhi</a></li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Dovie</a></li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Gangtok</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Gokarna</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Jaipur</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Jaisalmer</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel jodhpur</a> </li>
                   </ul>
               </div>
               <div>
                   <ul>
-                      <li  class = "city" >Zostel Kathmandu</li>
-                      <li  class = "city" >Zostel Kochi</li>
-                      <li  class = "city" >Zostel Kodaikanal</li>
-                      <li  class = "city" >Zostel Kolad</li>
-                      <li  class = "city" >Zostel Leh</li>
-                      <li  class = "city" >Zostel Manali</li>
-                      <li  class = "city" >Zostel Mcleodganj</li>
-                      <li  class = "city" >Zostel Mukteshwar</li>
-                      <li  class = "city" >Zostel Mumbai</li>
-                      <li  class = "city" >Zostel Munnar</li>
-                      <li  class = "city" >Zostel Mysore</li>
-                      <li  class = "city" >Zostel Ooty</li>
-                      <li  class = "city" >Zostel Pokhara</li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Kathmandu</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Kochi</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Kodaikanal</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Kolad</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Leh</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Manali</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Mcleodganj</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Mukteshwar</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Mumbai</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Munnar</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Mysore</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Ooty</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Pokhara</a> </li>
                   </ul>
               </div>
               <div>
                   <ul>
-                      <li  class = "city" >Zostel Pushkar</li>
-                      <li  class = "city" >Zostel Rushikesh(Tapovan)</li>
-                      <li  class = "city" >Zostel Sangala</li>
-                      <li  class = "city" >Zostel Shangarh</li>
-                      <li  class = "city" >Zostel Sissu</li>
-                      <li  class = "city" >Zostel Spiti</li>
-                      <li  class = "city" >Zostel Shrinagar</li>
-                      <li  class = "city" >Zostel Udaipur</li>
-                      <li  class = "city" >Zostel Vagamon</li>
-                      <li  class = "city" >Zostel Varkala</li>
-                      <li  class = "city" >Zostel Vashisht</li>
-                      <li  class = "city" >Zostel Wayanand</li>
+                      <li  class = "city" > <a href='./zostelcity.html' > Zostel Pushkar</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Rushikesh(Tapovan) </a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Sangala</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Shangarh</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Sissu</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Spiti</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Shrinagar</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Udaipur</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Vagamon</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Varkala</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Vashisht</a> </li>
+                      <li  class = "city" > <a href='./zostelcity.html' >Zostel Wayanand</a> </li>
                   </ul>
               </div>
           </div>
@@ -79,28 +66,28 @@ const nav=()=>{
               <div class="submenue" id="normalsubmenue2">
                   <div>
                       <ul>
-                          <li  class = "city" >Zostel Homes Burwa</li>
-                          <li  class = "city" >Zostel Homes Cheog</li>
-                          <li  class = "city" >Zostel Homes Coorg</li>
-                          <li  class = "city" >Zostel Homes Kibber</li>
-                          <li  class = "city" >Zostel Homes Kotgadh</li>
-                          <li  class = "city" >Zostel Homes Kotkhai</li>
-                          <li  class = "city" >Zostel Homes Laida</li>
-                          <li  class = "city" >Zostel Homes Mashobra</li>
-                          <li  class = "city" >Zostel Homes Pushkar</li>
-                          <li  class = "city" >Zostel Homes Rakhcham</li>
-                          <li  class = "city" >Zostel Homes Ramgadh(Nainital)</li>
-                          <li  class = "city" >Zostel Homes Rashil</li>
-                          <li  class = "city" >Zostel Homes Rumshu</li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Burwa </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Cheog</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Coorg </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Kibber</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Kotgadh </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Kotkhai </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Laida</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Mashobra </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Pushkar </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Rakhcham</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Ramgadh(Nainital) </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Rashil</a></li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Rumshu </a> </li>
                       </ul>
                   </div>
                   <div>
                       <ul>
-                          <li  class = "city" >Zostel Homes Tabo</li>
-                          <li  class = "city" >Zostel Homes Theog</li>
-                          <li  class = "city" >Zostel Homes Wayanand(Karpujha)</li>
-                          <li  class = "city" >Zostel Homes Wayanand(Thirunelli)</li>
-                          <li  class = "city" >Zostel Homes Wayanand(Vythri)</li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Tabo</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Theog</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Wayanand(Karpujha) </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Wayanand(Thirunelli)</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Homes Wayanand(Vythri)</a> </li>
                       </ul>
                   </div>
               </div>
@@ -109,10 +96,10 @@ const nav=()=>{
               <div class="submenue" id="normalsubmenue3">
                   <div>
                       <ul>
-                          <li  class = "city" >Zostel Plus Bir</li>
-                          <li  class = "city" >Zostel Plus Lonavla</li>
-                          <li  class = "city" >Zostel Plus Mussoorie</li>
-                          <li  class = "city" >Zostel Plus Panchgani</li>
+                          <li  class = "city" > <a href='./zostelcity.html' > Zostel Plus Bir</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' > Zostel Plus Lonavla</a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Plus Mussoorie </a> </li>
+                          <li  class = "city" > <a href='./zostelcity.html' >Zostel Plus Panchgani </a> </li>
                       </ul>
                   </div>
               </div>

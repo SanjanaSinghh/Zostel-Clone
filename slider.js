@@ -1,6 +1,6 @@
 async function fech(){
     try {
-        let res=await fetch("http://localhost:3000/sai")
+        let res=await fetch("http://localhost:3001/sai")
         let data=await res.json()
         console.log(data)
         display(data)
