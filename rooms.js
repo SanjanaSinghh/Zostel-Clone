@@ -5,6 +5,10 @@ let roomDetails = JSON.parse(localStorage.getItem("roomDetails"));
 console.log(roomDetails);
 
 const displayRoomDetails = (roomDetails) => {
+  document.getElementById("btn").addEventListener("click", () => {
+    location.href = "./confirm_booking.html";
+  });
+
   roomDetails.forEach((city) => {
     let imageCard = document.createElement("img");
     imageCard.src = city.images[0];
@@ -64,19 +68,28 @@ const displayRoomDetails = (roomDetails) => {
       let selectBtn = document.createElement("button");
       selectBtn.innerText = "select unit";
 
-      selectBtn.addEventListener("click", ()=>{
-        document.getElementById("roomName").innerText = room.name 
-        document.getElementById("price").innerText = "₹" + room.price
- 
-        let tax = room.price * 0.12
-        let total = room.price + tax
-        let payNow = total * 0.21
-        document.getElementById("tax").innerText = "Tax" + " " + tax.toFixed(2)
-        document.getElementById("total").innerText = "Total(incl tax.)"+ "     " + total.toFixed(2)
-        document.getElementById("pay").innerText = "Payable Now" + "     " + payNow.toFixed(2)
+      selectBtn.addEventListener("click", () => {
+        document.getElementById("roomName").innerText = room.name;
+        document.getElementById("price").innerText = "₹" + room.price;
 
+        let tax = room.price * 0.12;
+        let total = room.price + tax;
+        let payNow = total * 0.21;
 
-      })
+        document.getElementById("tax").innerText = "₹" + tax.toFixed(2);
+        document.getElementById("total").innerText = "₹" + total.toFixed(2);
+        document.getElementById("pay").innerText = "₹" + payNow.toFixed(2);
+
+        const booking = {
+          roomName: room.name,
+          roomPrice: room.price,
+          taxAmount: tax,
+          totalAmount: total,
+          payAmount: payNow,
+        };
+
+        localStorage.setItem("bookingDetails", JSON.stringify(booking));
+      });
 
       rightSide.append(price, selectBtn);
 
