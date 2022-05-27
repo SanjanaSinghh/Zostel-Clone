@@ -1,96 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destination</title>
- <link rel="stylesheet" href="destination.css">
+    <link rel="stylesheet" href="Media_header.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="destination.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
-<body>
-    <!-- navbar -->
-    <nav style="display: flex;">
-        <div id="media_nav_head" style="position:fixed;" >
-            <div>  <img src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.png" alt="Zostel Logo">  </div>
-        </div>
-        <div id="media_nav_body">
-            <ol id="o" style="padding-left:225px;font-family: Utah WGL Bold;">
-                <li class="liFlex" ><span>Destination</span></li>
-                <li class="liFlex" id="submenue1" onclick="show1()"><span>Zostel</span><span id="toggle1"> ^ </span>
-                
-                    <div class="submenue" id="innersubmenue1" style="height: 435px;">
-                        <ul> 
-                            <li>Zostel Aurangabad</li>
-                            <li>Zostel Bangalore</li>
-                            <li>Zostel Barot (Rajghnda)</li>
-                            <li>Zostel Chitkul</li>
-                            <li>Zostel Coorg</li>
-                            <li>Zostel Dalhousie</li>
-                            <li>Zostel Delhi</li>
-                            <li>Zostel Dovie</li>
-                            <li>Zostel Gangtok</li>
-                            <li>Zostel Gokarna</li>
-                            <li>Zostel Jaipur</li>
-                            <li>Zostel Jaisalmer</li>
-                        </ul>
-                </div>
-                
-                
-                <li class="liFlex" id="submenue2" onclick="show2()" ><span>Zostel Homes </span><span id="toggle2"> ^ </span></li>
-                <div class="submenue" id="innersubmenue2" style="height: 500px;">
-                    <ul>
-                        <li>Zostel Homes Burwa</li>
-                        <li>Zostel Homes Cheog</li>
-                        <li>Zostel Homes Coorg</li>
-                        <li>Zostel Homes Kibber</li>
-                        <li>Zostel Homes Kotgadh</li>
-                        <li>Zostel Homes Kotkhai</li>
-                        <li>Zostel Homes Laida</li>
-                        <li>Zostel Homes Mashobra</li>
-                        <li>Zostel Homes Pushkar</li>
-                        <li>Zostel Homes Rakhcham</li>
-                        <li>Zostel Homes Ramgadh(Nainital)</li>
-                        <li>Zostel Homes Rashil</li>
-                        <li>Zostel Homes Rumshu</li> 
-                    </ul>  
-                </div>
-                <li class="liFlex" id="submenue3" onclick="show3()" ><span>Zostel Plus</span><span id="toggle3"> ^ </span></li>
-                <div class="submenue" id="innersubmenue3" >
-                    <ul>
-                        <li>Zostel Plus Bir</li>
-                        <li>Zostel Plus Lonavla</li>
-                        <li>Zostel Plus Mussoorie</li>
-                        <li>Zostel Plus Panchgani</li>
-                    </ul>  
-                </div>
-                <li class="liFlex" ><span>Longstays</span></li>
-                <li class="liFlex" ><span>Franchise</span></li>
-                <li class="liFlex" id="submenue4" onclick="show4()"><span>Join us</span><span id="toggle4">^</span> </li>
-                <div class="submenue" id="innersubmenue4" >
-                    <ul>
-                        <li>Career</li>
-                        <li>Zostel Internship 2022</li>
-                    </ul>  
-                </div>
-                <li class="liFlex" ><span>Blog</span></li>
-                <li class="liFlex" ><span>\z/ Zostel</span></li>
-            </ol>
-        </div>
-        </nav>
-<div >
 
-    <h2 style="text-align:center;font-size:30px;padding-top:30px;padding-bottom:30px;">Explore <strong style="color:rgba(241,88,36);">Destinations</strong></h2>
-</div>
-<!-- body -->
- <div>
-    <div id="sai">
+<body>
+    <div id="navbar"></div>
+    <div id="responsive_nav">
+        <img onclick='changelocation()'
+            src="https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68" alt="">
+        <span class="material-symbols-outlined" onclick="show_responsive_navbar()">menu</span>
     </div>
- </div>
-   
+    <div id="responsive_navbar_boxa"></div>
+    <!-- navbar -->
+    <div>
+
+        <h2 style="text-align:center;font-size:30px;padding-top:30px;padding-bottom:30px;">Explore <strong
+                style="color:rgba(241,88,36);">Destinations</strong></h2>
+    </div>
+    <!-- body -->
+    <div>
+        <div id="sai">
+        </div>
+    </div>
+
+    <div id="footernormal"></div>
 </body>
 
 
 <script src="destination.js">
-    
 </script>
+
 </html>
+<script src="header.js"></script>
+<script type="module">
+    import nav from './components/import_header.js'
+    document.getElementById("navbar").innerHTML=nav()
+
+    import get_responsive_navbar from './Media_header_import.js'
+    document.getElementById("responsive_navbar_boxa").innerHTML=get_responsive_navbar();
+
+    import footernorm from './components/footer.js'
+    document.getElementById("footernormal").innerHTML=footernorm()
+    
+
+</script>
+
+<script>
+    const show_responsive_navbar = () => {
+        console.log(1)
+        // if(document.getElementById("respnonsive_navbar_main_body").style.display === 'none'){
+        document.getElementById("respnonsive_navbar_main_body").style.display = 'flex'
+        // } 
+    }
+    const hide_responsive_navbar = () => {
+        // if(document.getElementById("respnonsive_navbar_main_body").style.display != 'none'){
+        document.getElementById("respnonsive_navbar_main_body").style.display = 'none'
+    }
+    // }
+</script>

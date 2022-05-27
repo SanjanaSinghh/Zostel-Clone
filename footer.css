@@ -7,7 +7,8 @@ body {
   box-sizing: border-box;
 }
 .footer {
-  background: #2d3748;
+  font-size: 1vw;
+  background: #2D3748;
   height: auto;
   /* margin-top: 125vh; */
   padding: 30px;
@@ -84,10 +85,13 @@ small {
 }
 @media all and (min-width: 86px) and (max-width: 630px) {
   .footer {
+    background: #2D3748;
+
     background: #2d3748;
     height: auto;
     width: auto;
     padding: 24px;
+    margin-top: 105vh;
   }
   .footer-section {
     width: 100%;
@@ -144,5 +148,14 @@ small {
   #croppedImage {
     margin-top: 40vh;
     margin-bottom: 3vh;
+  }
+  #linksh3{
+    font-size: 3vw;
+  }
+  #social_links_h3{
+    font-size: 3vw;
+  }
+  .one{
+    font-size: 3vw;
   }
 }

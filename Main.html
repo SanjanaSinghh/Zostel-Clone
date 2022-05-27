@@ -18,7 +18,7 @@
 <body>
     <div id="nav"></div>
     <div id="responsive_nav">
-        <img src="https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68" alt="">
+        <img onclick='changelocation()' src="https://tse4.mm.bing.net/th?id=OIP.MJHKIyQFtgiaKLLHXtzbPwHaCA&pid=Api&P=0&w=252&h=68" alt="">
         <span class="material-symbols-outlined" onclick="show_responsive_navbar()">menu</span>
     </div>
     <div id="responsive_navbar_box"></div>
@@ -249,12 +249,12 @@
     import get_responsive_navbar from './Media_header_import.js'
     document.getElementById("responsive_navbar_box").innerHTML=get_responsive_navbar();
 
-    import footernorm from './components/footer.js'
+    import footernorm from './footer.js'
     document.getElementById("footernormal").innerHTML=footernorm()
     
 
 </script>
-<script src="header.js"></script>
+<script src="./header.js"></script>
 <script>
     const show_responsive_navbar = () => {
         console.log(1)

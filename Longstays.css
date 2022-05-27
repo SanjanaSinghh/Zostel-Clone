@@ -141,3 +141,6 @@ max-height: 20rem;
 .acording-items:target .acoding-link .remove{
     display: block;
   }
+  section{
+      margin-bottom: 7.5vh;
+  }

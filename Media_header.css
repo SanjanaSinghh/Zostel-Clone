@@ -66,13 +66,14 @@ ol>li{
 } 
 #respnonsive_navbar_main_body{
     background-color: black;
-    height: 600vh;
+    height: 800vh;
     display: flex;
     display: none;
     /* display: grid;
     grid-template-columns: 1fr; */
 
     flex-direction: column;
+    font-size: 4.5vw;
     
 }
 
