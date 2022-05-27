@@ -59,10 +59,10 @@
 /* stays around data */
 
 #stays {
-  display:grid;
-  grid-template-columns:repeat(1,1fr);
+  display: flex;
+  flex-direction: column;
   width: 90%;
-  height:auto;
+  height: auto;
   margin: auto;
   margin-top: 30px;
 }
@@ -171,4 +171,3 @@
   background-color: rgba(241, 88, 36, var(--bg-opacity));
   color: #f15824;
 }
-
