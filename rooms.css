@@ -60,23 +60,23 @@
   margin-left: -1.5rem;
 }
 
-#calendar{
-  width:45%;
-  border:1px solid #cecece;
-  border-radius:0.5rem;
-  display:flex;
-  background:#fff;
-  padding-top:0.8rem;
-  padding-bottom:0.8rem;
+#calendar {
+  width: 45%;
+  border: 1px solid #cecece;
+  border-radius: 0.5rem;
+  display: flex;
+  background: #fff;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   justify-content: space-around;
-  
 }
-#calendar span{
-  font-size:1.5rem;
+#calendar span {
+  font-size: 1.5rem;
 }
-#calendar #start, #end{
-  border:none;
-  outline:none;
+#calendar #start,
+#end {
+  border: none;
+  outline: none;
 }
 #roomDetails {
   display: flex;
@@ -242,15 +242,14 @@
 #addressMap > .address > h2 {
   --text-opacity: 1;
   color: #0a181d;
-  color: rgba(10,24,29,var(--text-opacity));
+  color: rgba(10, 24, 29, var(--text-opacity));
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
-#addressMap > .address > p{
-  
+#addressMap > .address > p {
 }
 
 #addressMap > .map {
