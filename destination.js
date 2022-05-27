@@ -4,7 +4,7 @@
     async function sai(){
 
 try{
-await fetch("http://localhost:3000/sai")
+await fetch("http://localhost:3001/sai")
 .then((x)=> x.json())
 .then((y)=>display(y))
 
