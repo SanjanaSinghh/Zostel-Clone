@@ -53,7 +53,6 @@ const normalshow2 = () => {
     document.getElementById("normalsubmenue2").style.display = "none";
     document.getElementById("normaltoggle2").style.transform = "rotate(0deg)";
     document.getElementById("normaltoggle2").style.transition = ".1s";
-
   }
 };
 const normalshow3 = () => {
