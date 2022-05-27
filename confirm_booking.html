@@ -14,12 +14,12 @@
     <div id="nav"></div>
 
     <div id="confirmation-booking-heading">
-        <h1>Confirm Your Booking </h1>
+       <a href="./rooms.html"><i class="material-icons">arrow_back</i></a>  <h1>Confirm Your Booking </h1>
     </div>
 
     <div class="guest-information">
        <h3>Guest Information </h3>
-       <button class="hideBut" onclick="hideElementGuest()"> <i class="material-icons"></i></button>
+   <a id="hid_gue"> <i class="material-icons" id="hideguest">expand_more </i></a>
     </div>
 
     <div id="main_box">
@@ -30,9 +30,9 @@
                     <label for="firstname_at">Name<span style="color:red">*</span></label>
                 </div>    
             <div class="input_typed_text_name">
-                <input type="text" placeholder="Enter the first name" id="firstname_at" required>
-                <input type="text" placeholder="Enter the middle name" id="middle_at" required>
-                <input type="text" placeholder="Enter the last name" id="lastname_at" required>
+                <input type="text" placeholder="Enter the first name" id="firstname_at" >
+                <input type="text" placeholder="Enter the middle name" id="middle_at" >
+                <input type="text" placeholder="Enter the last name" id="lastname_at" >
             </div>
             </div>
 
@@ -69,7 +69,7 @@
                     <label for="number_at">Number<span style="color:red">*</span></label>
                 </div>
                 <div class="input_typed_text_other">
-                    <input  placeholder="+91 98765-43210" type="tel" value="+91" required>
+                    <input  placeholder="+91 98765-43210" id="number_at" type="tel" value="+91" required>
                 </div>    
             </div>
             <div class="inp">
@@ -88,7 +88,7 @@
         </div>
         <div  class="guest-information2">
             <h3>COVID Policy</h3>
-            <button class="hideBut" onclick="hideElementCovid()"><i class="material-icons"></i></button>
+              <a id="hid_cov"> <i class="material-icons" id="hidecov">expand_more </i></a>
          </div>
 
          <div id="covid_policy" class="policy_info">
@@ -101,7 +101,7 @@
 
          <div  class="guest-information2">
             <h3>Property Policy</h3>
-            <button class="hideBut" onclick="hideElementProperty()"><i class="material-icons"></i></button>
+            <a id="hid_prop"> <i class="material-icons" id="hideprop">expand_more </i></a>
          </div>
          <div id="property_policy" class="policy_info">
             <p>- Guests are required to pay a 21% advance at the time of booking itself.</p>
@@ -115,13 +115,13 @@
            <p>- Alcohol consumption is strictly prohibited in and around the property premises.</p>         
             <P>- Right to admission reserved.</P>
             
-            <p> </p>
-           <p>Important Note: According to the rules laid down by the Aurangabad police, local vehicles are not permitted to park within the hostel premises. This includes vehicles with number plates starting with ‘MH20’ & taxi passing vehicles (white letters on yellow plate). However, self-driven vehicles (yellow letters on black plate) are permitted to park.   </p> 
+            <p id="note"> </p>
+           <p style="margin-top:20px;">Important Note: According to the rules laid down by the Aurangabad police, local vehicles are not permitted to park within the hostel premises. This includes vehicles with number plates starting with ‘MH20’ & taxi passing vehicles (white letters on yellow plate). However, self-driven vehicles (yellow letters on black plate) are permitted to park.   </p> 
         </div>
 
          <div  class="guest-information2">
             <h3>Cancellation Policy</h3>
-            <button class="hideBut" onclick="hideElementCancellation()"> <i class="material-icons"></i></button>
+            <a id="hid_can"> <i class="material-icons" id="hidecan">expand_more </i></a>
          </div>
          <div id="cancellation_policy" class="policy_info">
             <p>- Guests are required to pay a 21% advance at the time of booking itself.</p>
@@ -144,41 +144,41 @@
 
           <div id="summary">
                 <h3>Summary</h3>
-                <p id = "roomName">Starting from</p>
-                <div>
-                    <div><img src="" alt=""></div>
+                <div id="hotel_dec">
+                    <div><img style="height:60px;" src="https://img.cdn.zostel.com/zostel/gallery/images/0xh1a-KdRqW7CCg8cTNz6g/8-bed-mixed-dorm-20201112104616.jpg?w=64" alt=""></div>
                     <div>
-                   <h2></h2>
-                   <div>
-                       <p></p>
-                       <p></p>
-                   </div>
+                   <h5 id="room_name"></h5>
+                   <div id="after_img" >
+                    <p>Amount</p>   
+                    <p id="amount"> </p></div>
+                       
                     </div>
                 </div>
 
                 <div class="payment_table"> 
                     <p>Tax</p>
-                    <p  id = "tax">rup</p>
+                    <p  id = "tax"></p>
                 </div>
                 <div class="payment_table"> 
                     <p>Total (tax incl.)</p>
-                    <p id = "taxinc">reo</p>
+                    <p id = "taxinc"></p>
                 </div>
                 <div class="payment_table"> 
                     <p>Payable Now</p>
-                    <p id = "payable">wpo</p>
+                    <p id = "payable"></p>
                 </div>
-               <div id="checkbox">
+               <div id="box_check">
                    <input type="checkbox" required>
-                   I acknowledge and accept the terms and conditions mentioned in the Property Policy & Cancellation Policy.
+                  <p>I acknowledge and accept the terms and conditions mentioned in the Property Policy & Cancellation Policy.</p> 
                </div>
-                <button onclick="payment()">Reserve</button>
+               <div id="reserve_but"><button  onclick="payment()">Reserve</button></div>
+                
               </div>
             </div>
     </div>
         
 </div>
-        <div id="footer">
+        <div id="footer" style="margin-top:50px;">
 
         </div>
         

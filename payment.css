@@ -1,4 +1,12 @@
+#zostel_logo{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-left: 340px;
+    height:40px;
+    width:60px;
 
+}
 #juspay_image{
     display: flex;
     justify-content: flex-end;
@@ -95,12 +103,19 @@ table {
 }
 
 .actions {
+   width:85%;
+   margin: auto;
     padding: 17px 20px 18px;
-    margin-top: 18px;
-    margin-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 16px;
     background-color: #f5f5f5;
     border-top: 1px solid #ddd;
     text-align: center;
+}
+.actions button{
+    width:40%;
+    height: 30px;
+margin: auto;
 }
 
 .payment-info .head, .order-info .head {
@@ -112,9 +127,11 @@ table {
 }
 h5 {
     font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h4, h5, h6 {
     line-height: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h5 {
     margin: 0;
@@ -122,28 +139,56 @@ h5 {
     font-weight: bold;
     color: inherit;
     text-rendering: optimizelegibility;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .trust-part {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     height: 50px;
     margin: auto;
- padding:10px;
+ 
 }
 .trust-part img{
-padding:3px;
-width:60px;
+
+width:90px;
 height:30px;
+}
+.payment_details_form{
+    padding:20px;
+    width:70%;
+    margin: auto;
+align-items: center;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+}
+.payment_details_form>div{
+    margin: auto;
+    padding:5px;
+    height:30px;
 }
 .card_details{
 display:flex;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+margin: auto;
 
 }
+.card_details>label{
+margin-right: 10px;
+vertical-align: baseline;
+height: 25px;
+    
+    }
 .card_details img{
     width:50px;
     height:30px;
+    padding:4px;
+}
+.card_details input{
+    vertical-align: middle;
+    height:26px;
+
+  
 }
 .label_in{
     display: block;
@@ -152,6 +197,7 @@ display:flex;
     font-size: 13px;
     font-weight: normal;
     line-height: 18px;
+    align-items: center;
 }
 #payment_options{
     display:flex;
@@ -203,6 +249,61 @@ button{
     border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
     color: white;
 }
+#payment_type{
+    display:flex;
+    justify-content: space-around;
+    margin: auto;
+    font-size: 13px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding:20px;
+    color: #08c;
+}
+#expiry{
+margin-left: 5px;
+width:40%;
+height: auto;
+}
+#cvv_lab{
+    margin-left: -34spx;
+}
 
+#cvv_in{
+    width:25%;
+    margin-left: 10px;;
+}
+#save_card_details{
+    display: flex;
+    width:90%;
+    height:30px;
+    background-color: #feffd4;
+    justify-content: flex-start;
+    margin: auto;
+    align-items: baseline;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+#save_card_details>div{
+ margin: auto;
+ 
+}
+#save_card_details>div{
+    margin: auto;
+    
+}
+sup{
+    font-size: 9px;
+    font-weight: 250;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#checkbox{
+    margin-top: 15px;
+}
+#save_card_details p{
+    margin-bottom: 35px;
+}
 
 
