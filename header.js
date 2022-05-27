@@ -19,12 +19,15 @@ const normalshow1 = () => {
     document.getElementById("normalsubmenue1").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
+      location.reload();
     };
     document.getElementById("normalsubmenue1").style.display = "none";
     document.getElementById("normaltoggle1").style.transform = "rotate(0deg)";
     document.getElementById("normaltoggle1").style.transition = ".1s";
+
     // document.getElementById("normalsubmenue1").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
+
     // }
   }
 };
@@ -49,10 +52,12 @@ const normalshow2 = () => {
     document.getElementById("normalsubmenue2").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
+      location.reload();
     };
     document.getElementById("normalsubmenue2").style.display = "none";
     document.getElementById("normaltoggle2").style.transform = "rotate(0deg)";
     document.getElementById("normaltoggle2").style.transition = ".1s";
+
     // document.getElementById("normalsubmenue2").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
     // }
@@ -79,10 +84,12 @@ const normalshow3 = () => {
     document.getElementById("normalsubmenue3").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
+      location.reload();
     };
     document.getElementById("normalsubmenue3").style.display = "none";
     document.getElementById("normaltoggle3").style.transform = "rotate(0deg)";
     document.getElementById("normaltoggle3").style.transition = ".1s";
+
     // document.getElementById("normalsubmenue3").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
     // }
@@ -109,10 +116,12 @@ const normalshow4 = () => {
     document.getElementById("normalsubmenue4").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
+      location.reload();
     };
     document.getElementById("normalsubmenue4").style.display = "none";
     document.getElementById("normaltoggle4").style.transform = "rotate(0deg)";
     document.getElementById("normaltoggle4").style.transition = ".1s";
+
     // document.getElementById("normalsubmenue4").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
     // }
@@ -139,10 +148,12 @@ const show1 = () => {
     document.getElementById("innersubmenue1").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
+      location.reload();
     };
     document.getElementById("innersubmenue1").style.display = "none";
     document.getElementById("toggle1").style.transform = "rotate(0deg)";
     document.getElementById("toggle1").style.transition = ".1s";
+
     // document.getElementById("innersubmenue1").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
     // }
@@ -170,10 +181,12 @@ const show2 = () => {
     document.getElementById("innersubmenue2").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
+      location.reload();
     };
     document.getElementById("innersubmenue2").style.display = "none";
     document.getElementById("toggle2").style.transform = "rotate(0deg)";
     document.getElementById("toggle2").style.transition = ".1s";
+
     // document.getElementById("innersubmenue2").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
     // }
@@ -201,10 +214,12 @@ const show3 = () => {
     document.getElementById("innersubmenue3").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
+      location.reload();
     };
     document.getElementById("innersubmenue3").style.display = "none";
     document.getElementById("toggle3").style.transform = "rotate(0deg)";
     document.getElementById("toggle3").style.transition = ".1s";
+
     // document.getElementById("innersubmenue3").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
     // }
@@ -231,10 +246,12 @@ const show4 = () => {
     document.getElementById("innersubmenue4").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
+      location.reload();
     };
     document.getElementById("innersubmenue4").style.display = "none";
     document.getElementById("toggle4").style.transform = "rotate(0deg)";
     document.getElementById("toggle4").style.transition = ".1s";
+
     // document.getElementById("innersubmenue4").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
     // }
