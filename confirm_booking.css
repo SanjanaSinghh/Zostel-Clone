@@ -1,14 +1,27 @@
+
+#main_box{
+    display: flex;
+    width:100%;
+    margin: auto;
+    height: auto;
+}
 #confirmation-booking-heading{
+    display: flex;
+    text-decoration: none;
     font-size: 15px;
     margin-top: 80px;
 }
+#input_box1{
+    width:65.4%;
+}
 #input_box{
-    width:65%;
+   
     border:1px solid#d1d7dd;
     height:520px;
     margin-left: 5px;
     margin-top: 25px;
 }
+
 .inp{
     display: flex;
     height:60px;
@@ -23,8 +36,8 @@
     height:60px;
     padding:20px;
     margin-left: -15px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;  
+
 }
 .input_place_name_address{
     height:100px;
@@ -99,21 +112,40 @@ color:#606163
     justify-content: space-between;
     border:1px solid#d1d7dd;
     width:65%;
-    font-size: 16px;
-    padding: 10px;
+    font-size:16px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     height:63px;  
-    margin-left: 5px;
+    margin-left:5px;
     margin-bottom: -26px;
     margin-top: 20px;
 }
 .guest-information h3{
-   margin-top: 8px;
-    color:#606163
+   margin-top: 20px;
+    color:#606163;
+    margin-left:20px;
+}
+.guest-information2{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid#d1d7dd;
+    width:100%;
+    font-size:16px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height:63px;  
+    margin-left:5px;
+    margin-bottom: -26px;
+    margin-top:20px;
+  
+}
+.guest-information2 h3{
+   margin-top:20px;
+    color:#606163;
+    margin-left:20px;
 }
 #added_link_info{
-    margin-top: 80px;
+    margin-top:80px;
 }
 
 #added_link_info{
@@ -123,10 +155,45 @@ color:#606163
 }
 .policy_info{
     color:#606163;
-    width:65%;
+    width:100%;
     border:1px solid#d1d7dd;
     height:auto;
     margin-left: 5px;
     margin-top: 25px;
     padding:15px;
+    margin-right: 30px;
+}
+#summary_box{
+
+    width:30%;
+    padding:20px;
+
+}
+.checkbox{
+    display:flex;
+    justify-content: space-between;
+
+}
+.checkbox>p{
+    font-size: 1.125rem;
+    font-weight: 600;
+
+}
+#summary h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.payment_table{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.125rem;
+    font-weight: 600;
+
+
+}
+
+.hideBut{
+    text-decoration: none;
+    border: none;
+    background-color: white;
 }

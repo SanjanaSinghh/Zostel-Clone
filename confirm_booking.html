@@ -7,17 +7,23 @@
     <title>Confirm Your Booking</title>
     <link rel="stylesheet" href="./confirm_booking.css">
     <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div id="nav"></div>
 
     <div id="confirmation-booking-heading">
-        <h1> &#8592; Confirm Your Booking </h1>
+       <a href="./rooms.html"><i class="material-icons"> arrow_back</i> <h1>Confirm Your Booking </h1></a> 
     </div>
+
     <div class="guest-information">
        <h3>Guest Information </h3>
-       <button onclick="hideElementGuest()"></button>
+       <button class="hideBut" onclick="hideElementGuest()"> <i class="material-icons"></i></button>
     </div>
+
+    <div id="main_box">
+<div id="input_box1">
     <div id="input_box"> 
     <div class="inp">
                 <div class="input_place_name">
@@ -80,9 +86,9 @@
             </div>
            
         </div>
-        <div  class="guest-information">
+        <div  class="guest-information2">
             <h3>COVID Policy</h3>
-            <button onclick="hideElementCovid()">but</button>
+            <button class="hideBut" onclick="hideElementCovid()"><i class="material-icons"></i></button>
          </div>
 
          <div id="covid_policy" class="policy_info">
@@ -93,9 +99,9 @@
        <p>- At this hostel, we outsource meals from a trusted partner. Travellers can opt for up to three meals a day by contacting the hostel reception.</p> 
          </div>
 
-         <div  class="guest-information">
+         <div  class="guest-information2">
             <h3>Property Policy</h3>
-            <button onclick="hideElementProperty()">but</button>
+            <button class="hideBut" onclick="hideElementProperty()"><i class="material-icons"></i></button>
          </div>
          <div id="property_policy" class="policy_info">
             <p>- Guests are required to pay a 21% advance at the time of booking itself.</p>
@@ -113,9 +119,9 @@
            <p>Important Note: According to the rules laid down by the Aurangabad police, local vehicles are not permitted to park within the hostel premises. This includes vehicles with number plates starting with ‘MH20’ & taxi passing vehicles (white letters on yellow plate). However, self-driven vehicles (yellow letters on black plate) are permitted to park.   </p> 
         </div>
 
-         <div  class="guest-information">
+         <div  class="guest-information2">
             <h3>Cancellation Policy</h3>
-            <button onclick="hideElementCancellation()">but</button>
+            <button class="hideBut" onclick="hideElementCancellation()"> <i class="material-icons"></i></button>
          </div>
          <div id="cancellation_policy" class="policy_info">
             <p>- Guests are required to pay a 21% advance at the time of booking itself.</p>
@@ -133,12 +139,58 @@
            <p>Important Note: According to the rules laid down by the Aurangabad police, local vehicles are not permitted to park within the hostel premises. This includes vehicles with number plates starting with ‘MH20’ & taxi passing vehicles (white letters on yellow plate). However, self-driven vehicles (yellow letters on black plate) are permitted to park.   </p> 
             
         </div>
+      </div>
+      <div id="summary_box">
+
+          <div id="summary">
+                <h3>Summary</h3>
+                <p id = "roomName">Starting from</p>
+                <div>
+                    <div><img src="" alt=""></div>
+                    <div>
+                   <h2></h2>
+                   <div>
+                       <p></p>
+                       <p></p>
+                   </div>
+                    </div>
+                </div>
+
+                <div class="payment_table"> 
+                    <p>Tax</p>
+                    <p  id = "tax">rup</p>
+                </div>
+                <div class="payment_table"> 
+                    <p>Total (tax incl.)</p>
+                    <p id = "taxinc">reo</p>
+                </div>
+                <div class="payment_table"> 
+                    <p>Payable Now</p>
+                    <p id = "payable">wpo</p>
+                </div>
+               <div id="checkbox">
+                   <input type="checkbox" required>
+                   I acknowledge and accept the terms and conditions mentioned in the Property Policy & Cancellation Policy.
+               </div>
+                <button onclick="payment()">Reserve</button>
+              </div>
+            </div>
+    </div>
+        
+</div>
+        <div id="footer">
+
+        </div>
         
 </body>
 <script src="./confirm_booking.js"></script>
 <script type="module">
     import nav from './import_header.js'
-    document.getElementById("nav").innerHTML=nav()
+    document.getElementById("nav").innerHTML=nav();
 </script>
-
+<script type="module">
+    import footer from './footer.js'
+    document.getElementById("footer").innerHTML=footer()
+</script>
+<script src="./header.js"></script>
 </html>
