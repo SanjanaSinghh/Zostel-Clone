@@ -7,9 +7,9 @@
 
     <title>Rooms</title>
     <link rel="stylesheet" href="rooms.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="header.css" />
-  </head>
+
   <body>
     <div id="navbar"></div>
 
@@ -17,7 +17,37 @@
 
     <div id="nameAmenities">
       <div class="cityDesc"></div>
-      <div class="amenities"></div>
+      <div class="amenities">
+         <h2>Amenities</h2>
+         <div class = "alist">
+           <ul>
+              <li> Lockers</li>
+              <li>Free Wi-Fi</li>
+              <li>Common Television</li>
+              <li>24/7 Reception</li>
+              <li>Bedside Lamps</li>
+              <li>Storage Facility</li>
+           </ul>
+
+           <ul>
+              <li>Hot water</li>
+              <li>Parking Facility</li>
+              <li>Water Dispenser</li>
+              <li>Common hangout area</li>
+              <li>Shower</li>
+              <li>Towels on rent</li>
+           </ul>
+
+           <ul>
+              <li>Pickup</li>
+              <li>Card Payment Accepted</li>
+              <li>Air-conditioning</li>
+              <li>In-house Activities</li>
+              <li>Breakfast (Extra)</li>
+              <li>Linen Included</li>
+           </ul>
+         </div>
+      </div>
     </div>
 
     <div id="roomDetails">
@@ -40,10 +70,28 @@
           <h2>Summary</h2>
           <p id = "roomName"></p>
           <p id= "price"></p>
+
+          <div>
+            <p  class = "taxTotalPay">Tax</p>
+            <p id = "tax"></p>
+          </div>
+         <div>
+            <p  class = "taxTotalPay">Total (tax incl.)</p>
+            <p id = "total"></p>
+         </div>
+
+         <div>
+            <p class = "taxTotalPay">Payable Now</p>
+            <p id = "pay"></p>
+         </div>
+        
+          <button id = "btn">Book now</button>
+
           <p id = "tax" class = "taxTotalPay"></p>
           <p id = "total"class = "taxTotalPay"></p>
           <p id = "pay" class = "taxTotalPay"></p>
           <button>Book now</button>
+
 
 
         </div>
@@ -180,9 +228,9 @@
     <div id="footer"></div>
   </body>
   <script src="rooms.js" type="module"></script>
-  <script src="./components/header.js"></script>
+  <script src="./header.js"></script>
   <script type="module">
-    import nav from "./components/import_header.js";
+    import nav from "./import_header.js";
     document.getElementById("navbar").innerHTML = nav();
   </script>
 </html>

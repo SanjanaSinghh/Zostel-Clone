@@ -1,4 +1,4 @@
-import footer from "./components/footer.js";
+import footer from "./footer.js";
 
 document.getElementById("footer").innerHTML = footer();
 
@@ -30,6 +30,13 @@ const displayCityData = (city) => {
   image.src = city.Image;
 
   document.getElementById("cityImage").append(image);
+  let cityNameOverImage = document.createElement("p")
+
+  cityNameOverImage.innerText = city.roomDetails[0].city
+  cityNameOverImage.setAttribute("class", "cityNameOverImage")
+
+  document.getElementById("cityImage").append(cityNameOverImage )
+
 
   document.querySelector(".cityName").innerText = city.Name;
   document.querySelector(".cityName1").innerText = city.Name;

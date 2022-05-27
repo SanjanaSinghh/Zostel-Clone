@@ -1,132 +1,127 @@
-#confirmation-booking-heading{
-    font-size: 15px;
-    margin-top: 80px;
+#confirmation-booking-heading {
+  font-size: 15px;
+  margin-top: 80px;
 }
-#input_box{
-    width:65%;
-    border:1px solid#d1d7dd;
-    height:520px;
-    margin-left: 5px;
-    margin-top: 25px;
+#input_box {
+  width: 65%;
+  border: 1px solid #d1d7dd;
+  height: 520px;
+  margin-left: 5px;
+  margin-top: 25px;
 }
-.inp{
-    display: flex;
-    height:60px;
-    margin-top: 20px; 
-    margin-left: 15px;
-    padding:px;
+.inp {
+  display: flex;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: px;
 }
-.input_place_name{
-    font-size: 14px;
-    width:10%;
-    text-align: center;
-    height:60px;
-    padding:20px;
-    margin-left: -15px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+.input_place_name {
+  font-size: 14px;
+  width: 10%;
+  text-align: center;
+  height: 60px;
+  padding: 20px;
+  margin-left: -15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.input_place_name_address{
-    height:100px;
-    margin: auto;
+.input_place_name_address {
+  height: 100px;
+  margin: auto;
 }
-.input_place_name>label{
-vertical-align: middle;
-font-weight: bold;
-color:#606163
+.input_place_name > label {
+  vertical-align: middle;
+  font-weight: bold;
+  color: #606163;
 }
-.input_typed_text_other{
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    width:100%;
-    margin-left: 5%;
-    border-style: none;
-   padding-right: 15px;
-   
+.input_typed_text_other {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  margin-left: 5%;
+  border-style: none;
+  padding-right: 15px;
 }
-.input_typed_text_other input{
-    height: 60px;
-    width:100%;
-    border:1px solid#d1d7dd;
-    border-radius: 5px;
+.input_typed_text_other input {
+  height: 60px;
+  width: 100%;
+  border: 1px solid #d1d7dd;
+  border-radius: 5px;
 }
 
-.input_typed_text_name{
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    width:100%;
-    margin-left: 5%;
-    padding-right: 15px;
+.input_typed_text_name {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  margin-left: 5%;
+  padding-right: 15px;
 }
-.input_typed_text_name input{
-    width:32.5%;
-    border-style: none;
-    border:1px solid#d1d7dd;
-    border-radius: 5px;
-     
-}
-
-#select_gender{
-    width:100%;
-    border-radius: 5px;
-    height:60px;
-    border-style: none;
-    border:1px solid#d1d7dd;
-    border-radius: 5px;
+.input_typed_text_name input {
+  width: 32.5%;
+  border-style: none;
+  border: 1px solid #d1d7dd;
+  border-radius: 5px;
 }
 
-::placeholder{
- font-size: 14px;
+#select_gender {
+  width: 100%;
+  border-radius: 5px;
+  height: 60px;
+  border-style: none;
+  border: 1px solid #d1d7dd;
+  border-radius: 5px;
+}
+
+::placeholder {
+  font-size: 14px;
   color: #606163;
   padding: 15px;
 }
-#address_at{
-    height:100px;
-    margin: auto;
-    }
-#address_at_lable{
-    height:100px;
-    margin: auto;
-    vertical-align: middle;
-    text-align: center;
-
-
+#address_at {
+  height: 100px;
+  margin: auto;
 }
-.guest-information{
-    display: flex;
-    justify-content: space-between;
-    border:1px solid#d1d7dd;
-    width:65%;
-    font-size: 16px;
-    padding: 10px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    height:63px;  
-    margin-left: 5px;
-    margin-bottom: -26px;
-    margin-top: 20px;
+#address_at_lable {
+  height: 100px;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
 }
-.guest-information h3{
-   margin-top: 8px;
-    color:#606163
+.guest-information {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d1d7dd;
+  width: 65%;
+  font-size: 16px;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 63px;
+  margin-left: 5px;
+  margin-bottom: -26px;
+  margin-top: 20px;
 }
-#added_link_info{
-    margin-top: 80px;
+.guest-information h3 {
+  margin-top: 8px;
+  color: #606163;
+}
+#added_link_info {
+  margin-top: 80px;
 }
 
-#added_link_info{
-    border-top:1px solid #d1d7dd;
-    padding:10px;
-    font-size: 14px;
+#added_link_info {
+  border-top: 1px solid #d1d7dd;
+  padding: 10px;
+  font-size: 14px;
 }
-.policy_info{
-    color:#606163;
-    width:65%;
-    border:1px solid#d1d7dd;
-    height:auto;
-    margin-left: 5px;
-    margin-top: 25px;
-    padding:15px;
+.policy_info {
+  color: #606163;
+  width: 65%;
+  border: 1px solid #d1d7dd;
+  height: auto;
+  margin-left: 5px;
+  margin-top: 25px;
+  padding: 15px;
 }

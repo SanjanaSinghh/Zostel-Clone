@@ -2,6 +2,19 @@
   width: 100%;
 }
 
+.cityNameOverImage {
+  position: absolute;
+  bottom: 300px;
+  left: 550px;
+  z-index: 0;
+  font-size: 3rem;
+  text-shadow: 0 0 3px rgb(0 0 0 / 30%);
+  font-weight: 700;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
 #cityDesc > h3 {
   text-align: center;
   margin-top: 25px;
