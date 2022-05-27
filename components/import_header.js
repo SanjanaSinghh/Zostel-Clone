@@ -11,7 +11,6 @@ const nav=()=>{
           <div class="submenue" id="normalsubmenue1" >
               <div>
                   <ul>
-   import_header.js
                       <li  onclick=("setdata()") class = "city" >Zostel Aurangabad</li>
                       <li  class = "city" >Zostel Bangalore</li>
                       <li  class = "city" >Zostel Barot (Rajghnda)</li>
@@ -38,7 +37,6 @@ const nav=()=>{
                       <li>Zostel Jaipur</li>
                       <li>Zostel Jaisalmer</li>
                       <li>Zostel jodhpur</li>
- components/import_header.js
                   </ul>
               </div>
               <div>
