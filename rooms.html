@@ -22,16 +22,37 @@
 
     <div id="roomDetails">
       <div id="one">
-        <div class="rooms"></div>
+        <div class="rooms">
+          <div id = "descClaendar">
+            <div>
+              <h2>Book your stay</h2>
+              <p>Select from a range of beautiful rooms</p>
+            </div>
+            <div id = calendar>
+              <input type = "date" id = "start" />
+              <span>&#8594</span>
+              <input type = "date"  id = "end"/>
+            </div>
+          </div>
+        </div>
+     
         <div class="summary">
           <h2>Summary</h2>
+          <p id = "roomName"></p>
+          <p id= "price"></p>
+          <p id = "tax" class = "taxTotalPay"></p>
+          <p id = "total"class = "taxTotalPay"></p>
+          <p id = "pay" class = "taxTotalPay"></p>
+          <button>Book now</button>
+
+
         </div>
       </div>
     </div>
 
-    <div id="addressMap">
-      <div class="address"></div>
-      <div class="map"></div>
+    <div id = "addressMap">
+      <div class = "address"></div>
+      <div class = "map"></div>
     </div>
 
     <div id="policies">
