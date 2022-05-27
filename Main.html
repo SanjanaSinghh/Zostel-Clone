@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="./Main_page_input.css">
     <link rel="stylesheet" href="Main.css">
-    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./footer.css">
 </head>
 
 <body>
@@ -242,19 +242,30 @@
 </body>
 
 </html>
-<script type="module">
-    import nav from 'import_header.js'
+<!-- <script type="module">
+    import nav from './import_header.js'
     document.getElementById("nav").innerHTML=nav()
 
     import get_responsive_navbar from './Media_header_import.js'
     document.getElementById("responsive_navbar_box").innerHTML=get_responsive_navbar();
 
-    import footernorm from 'footer.js'
+    import footernorm from './footer.js'
     document.getElementById("footernormal").innerHTML=footernorm()
     
 
+</script> -->
+<script type="module">
+    import nav from './import_header.js'
+    document.getElementById("nav").innerHTML=nav()
+
+    import get_responsive_navbar from './Media_header_import.js'
+    document.getElementById("responsive_navbar_box").innerHTML=get_responsive_navbar();
+
+    import footernorm from './footer.js'
+    document.getElementById("footernormal").innerHTML=footernorm()
+
 </script>
-<script src="header.js"></script>
+<script src="./header.js"></script>
 <script>
     const show_responsive_navbar = () => {
         console.log(1)
@@ -267,6 +278,8 @@
         document.getElementById("respnonsive_navbar_main_body").style.display = 'none'
     }
     // }
+
+    // C:\Users\MD SHAHBAZ ALAM\Documents\GitHub\Zostel-Clone\import_header.js
 
 
 

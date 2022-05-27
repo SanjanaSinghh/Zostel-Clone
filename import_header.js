@@ -11,7 +11,7 @@ const nav=()=>{
           <div class="submenue" id="normalsubmenue1" >
               <div>
                   <ul>
-                      <li  onclick=("setdata()") class = "city" >Zostel Aurangabad</li>
+                      <li  class = "city" >Zostel Aurangabad</li>
                       <li  class = "city" >Zostel Bangalore</li>
                       <li  class = "city" >Zostel Barot (Rajghnda)</li>
                       <li  class = "city" >Zostel Chitkul</li>
@@ -24,19 +24,6 @@ const nav=()=>{
                       <li  class = "city" >Zostel Jaipur</li>
                       <li  class = "city" >Zostel Jaisalmer</li>
                       <li  class = "city" >Zostel jodhpur</li>
-                      <li class = "city" >Zostel Aurangabad</li>
-                      <li>Zostel Bangalore</li>
-                      <li>Zostel Barot (Rajghnda)</li>
-                      <li>Zostel Chitkul</li>
-                      <li>Zostel Coorg</li>
-                      <li>Zostel Dalhousie</li>
-                      <li>Zostel Delhi</li>
-                      <li>Zostel Dovie</li>
-                      <li>Zostel Gangtok</li>
-                      <li>Zostel Gokarna</li>
-                      <li>Zostel Jaipur</li>
-                      <li>Zostel Jaisalmer</li>
-                      <li>Zostel jodhpur</li>
                   </ul>
               </div>
               <div>
