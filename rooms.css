@@ -38,6 +38,46 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#descClaendar h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  --text-opacity: 1;
+  color: #0a181d;
+  color: rgba(10, 24, 29, var(--text-opacity));
+}
+#descClaendar p {
+  --text-opacity: 1;
+  color: #4d585b;
+  color: rgba(77, 88, 91, var(--text-opacity));
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#descClaendar > div {
+  margin: auto;
+  width: 60%;
+  margin-left: -1.5rem;
+}
+
+#calendar{
+  width:45%;
+  border:1px solid #cecece;
+  border-radius:0.5rem;
+  display:flex;
+  background:#fff;
+  padding-top:0.8rem;
+  padding-bottom:0.8rem;
+  justify-content: space-around;
+  
+}
+#calendar span{
+  font-size:1.5rem;
+}
+#calendar #start, #end{
+  border:none;
+  outline:none;
+}
 #roomDetails {
   display: flex;
   width: 100%;
@@ -59,12 +99,53 @@
 }
 .summary {
   text-align: left;
-  margin-left:4rem;
+  margin-left: 4rem;
+}
+.summary h2 {
+  margin-bottom: 1rem;
+}
+.summary #roomName {
+  --text-opacity: 1;
+  color: #0a181d;
+  color: rgba(10, 24, 29, var(--text-opacity));
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.summary #price {
+  --text-opacity: 1;
+  color: #0a181d;
+  color: rgba(10, 24, 29, var(--text-opacity));
+  margin-bottom: 1.2rem;
+}
+.summary .taxTotalPay {
+  --text-opacity: 1;
+  color: #0a181d;
+  color: rgba(10, 24, 29, var(--text-opacity));
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.summary button {
+  --bg-opacity: 1;
+  background-color: #f15824;
+  background-color: rgba(241, 88, 36, var(--bg-opacity));
+  letter-spacing: 0.025em;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
 }
 .rooms {
   display: flex;
   flex-direction: column;
 }
+
 .rooms > div {
   display: flex;
   justify-content: center;
@@ -158,11 +239,20 @@
   height: 40%;
   line-height: 1.6rem;
 }
-#addressMap > .address > p {
-  color: black;
-  font-size: 1.2rem;
+#addressMap > .address > h2 {
+  --text-opacity: 1;
+  color: #0a181d;
+  color: rgba(10,24,29,var(--text-opacity));
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
+#addressMap > .address > p{
+  
+}
+
 #addressMap > .map {
   width: 65%;
   height: 60%;

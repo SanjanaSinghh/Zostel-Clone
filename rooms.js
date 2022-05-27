@@ -1,4 +1,4 @@
-import footer from "./components/footer.js";
+import footer from "./footer.js";
 document.getElementById("footer").innerHTML = footer();
 
 let roomDetails = JSON.parse(localStorage.getItem("roomDetails"));
@@ -65,7 +65,17 @@ const displayRoomDetails = (roomDetails) => {
       selectBtn.innerText = "select unit";
 
       selectBtn.addEventListener("click", ()=>{
-          
+        document.getElementById("roomName").innerText = room.name 
+        document.getElementById("price").innerText = "₹" + room.price
+ 
+        let tax = room.price * 0.12
+        let total = room.price + tax
+        let payNow = total * 0.21
+        document.getElementById("tax").innerText = "Tax" + " " + tax.toFixed(2)
+        document.getElementById("total").innerText = "Total(incl tax.)"+ "     " + total.toFixed(2)
+        document.getElementById("pay").innerText = "Payable Now" + "     " + payNow.toFixed(2)
+
+
       })
 
       rightSide.append(price, selectBtn);
@@ -77,14 +87,14 @@ const displayRoomDetails = (roomDetails) => {
       document.querySelector(".rooms").append(roomCard);
     });
 
-    let ltext = document.createElement("p");
-    ltext.innerText = "Locate Us";
+    let ltext = document.createElement("h2");
+    ltext.innerText = "Locate Us:";
 
     let address = document.createElement("p");
     address.innerText = "Address:" + " " + city.address;
 
     let contact = document.createElement("p");
-    contact.innerText = city.contact;
+    contact.innerText = "contact:" + " " + city.contact;
 
     document.querySelector(".address").append(ltext, address, contact);
 
