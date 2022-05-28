@@ -19,7 +19,7 @@ const normalshow1 = () => {
     document.getElementById("normalsubmenue1").onclick = (e) => {
       // console.log("clicked",e.target.innerHTML)
       localStorage.setItem("ZostelData", JSON.stringify(e.target.innerHTML));
-      location.reload();
+      // location.reload();
     };
     document.getElementById("normalsubmenue1").style.display = "none";
     document.getElementById("normaltoggle1").style.transform = "rotate(0deg)";
@@ -27,6 +27,7 @@ const normalshow1 = () => {
 
     // document.getElementById("normalsubmenue1").onclick=(e)=>{
     //     location.href=`./zostelcity.html`
+       
 
     // }
   }

@@ -4,6 +4,9 @@ document.getElementById("footer").innerHTML = footer();
 let roomDetails = JSON.parse(localStorage.getItem("roomDetails"));
 console.log(roomDetails);
 
+let sdate = document.getElementById("start").value 
+console.log(sdate)
+
 const displayRoomDetails = (roomDetails) => {
   document.getElementById("btn").addEventListener("click", () => {
     location.href = "./confirm_booking.html";
@@ -69,6 +72,12 @@ const displayRoomDetails = (roomDetails) => {
       selectBtn.innerText = "select unit";
 
       selectBtn.addEventListener("click", () => {
+
+        let sdate = document.getElementById("start").value 
+        let edate = document.getElementById("end").value
+
+        console.log(sdate)
+
         document.getElementById("roomName").innerText = room.name;
         document.getElementById("price").innerText = "₹" + room.price;
 
