@@ -4,9 +4,9 @@
     async function sai(){
 
 try{
-await fetch("http://localhost:3001/sai")
+await fetch("https://mdshahbazalam6.github.io/ZostelApi/db.json")
 .then((x)=> x.json())
-.then((y)=>display(y))
+.then((y)=>display(y.sai))
 
 
 

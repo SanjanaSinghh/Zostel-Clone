@@ -1,9 +1,9 @@
 async function fech(){
     try {
-        let res=await fetch("http://localhost:3001/sai")
+        let res=await fetch("https://mdshahbazalam6.github.io/ZostelApi/db.json")
         let data=await res.json()
         console.log(data)
-        display(data)
+        display(data.sai)
     } catch (error) {
         console.log(error)
     }
