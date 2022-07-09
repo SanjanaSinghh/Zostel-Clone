@@ -4,8 +4,9 @@ document.getElementById("footer").innerHTML = footer();
 
 const getCityData = async () => {
   try {
-    let cityRes = await fetch("http://localhost:3000/cities");
+    let cityRes = await fetch("https://mdshahbazalam6.github.io/ZostelApi/cityDetails.json");
     let cityData = await cityRes.json();
+    cityData=cityData.cities
 
     let filteredData = cityData.filter((city) => {
       return city.Name === JSON.parse(localStorage.getItem("ZostelData"));

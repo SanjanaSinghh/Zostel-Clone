@@ -226,7 +226,7 @@ const show4 = () => {
 };
 
 const changelocation =()=>{
-  location.href=`./Main.html`
+  location.href=`./Index.html`
 }
 const changedestlocation=()=>{
   location.href=`./destination.html`

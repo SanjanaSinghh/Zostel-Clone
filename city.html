@@ -51,9 +51,9 @@ h1 {
     async function sai(){
 
 try{
-await fetch(`http://localhost:3000/sai/${index}`)
+await fetch(`http://localhost:3000/sai/`)
 .then((x)=> x.json())
-.then((y)=>display(y))
+.then((y)=>display(y[index]))
 
 }catch(err){
     console.log(err)
