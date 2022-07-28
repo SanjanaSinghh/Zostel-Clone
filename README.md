@@ -1,7 +1,6 @@
 # Zostel-Clone
 Masai Construct Week Project Unit 5. <br>
 Zostel is one of the largest and oldest networks of hostels and homes in India. It has presence in 44 cities in India and Nepal. This is a team of 5 members. users can search for tourist places, can confirm their bookings.<br>
-https://fluffy-chaja-931583.netlify.app/
 
 ## Team Members
 •	Sanjana Kumari Singh <br>
@@ -15,6 +14,9 @@ https://fluffy-chaja-931583.netlify.app/
 •	CSS <br>
 •	JAVASCRIPT <br>
 • JSON-SERVER 
+
+## Deploy Link
+https://zostel-clone-website.netlify.app/
 
 ## Install JSON Server
 ```bash
